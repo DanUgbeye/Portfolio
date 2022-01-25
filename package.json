@@ -1,0 +1,15 @@
+{
+  "name": "my-p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style":"npx tailwindcss -i ./src/input.css -o ./style.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.7"
+  },
+  "author": "Daniel Ugbeye",
+  "license": "ISC"
+}
