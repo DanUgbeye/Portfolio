@@ -8,68 +8,106 @@
     <title>Portfolio</title>
   </head>
 
-  <body class="bg-[#F5F3F5] p-0 m-0 ">
+  <body class="bg-[#F5F3F5] p-0 m-0 text-[0.75rem] ">
+
+  <!-- NAVBAR STARTS HERE -->
+    <nav
+    class="w-full flex justify-end shadow-md sticky ">
+
+      <ul
+      class="list-none md:flex p-0 md:ml-auto  ">
+
+        <li
+        class=" md:ml-2.5 p-0 min-h-fit flex ">
+          <a 
+          href="#home"
+          class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
+            Home
+          </a>
+        </li>
+
+        <li
+        class=" md:ml-4 p-0 min-h-fit flex">
+          <a 
+          href="#about"
+          class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
+            About
+          </a>
+        </li>
+
+        <li
+        class=" md:ml-4 p-0 min-h-fit flex">
+          <a 
+          href="#projects"
+          class="  md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
+            Projects
+          </a>
+        </li>
+
+        <li
+        class=" md:ml-4 p-0 min-h-fit flex">
+          <a 
+          href="#contact"
+          class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
+            Contact
+          </a>
+        </li>
+
+      </ul>
+
+      <div class="flex items-center md:ml-4 mr-2.5">
+        <a
+          href="" 
+          class="md:border-2 md:rounded-lg md:hover:bg-[#1088BC] md:hover:border-[#1088BC] md:border-[#15B6FB] bg-[#15B6FB] md:border-solid  md:max-w-fit  md:text-center text-white text-left no-underline py-2.5 px-4 outline-none ">
+          Download CV
+        </a>
+
+      </div>
+
+    </nav>
+    <!-- NAVBAR ENDS HERE -->
+
 
     <main
-     class="">
+     class="px-5">
 
-     <!-- NAVBAR STARTS HERE -->
-      <nav
-       class="w-full flex justify-end shadow-md ">
- 
-        <ul
-         class="list-none md:flex p-0 md:ml-auto  ">
+    <div id="home " class="min-h-[100vh] flex ">
 
-          <li
-           class=" md:ml-4 p-0 min-h-fit flex ">
-            <a 
-             href="#home"
-             class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
-              Home
-            </a>
-          </li>
+      <section id="intro" class=" flex flex-col md:flex-row  ">
+        <div class="my-auto order-2 md:order-1 ">
+          <p class="text-[#274690] font-semibold text-[2.25rem] leading-[0.625rem] ">
+            Hello
+          </p>
+          <p class="text-[#274690] font-semibold text-[2.25rem] leading-[0.625rem] ">
+            I'm Daniel Ugbeye
+          </p>
+          <span class="bg-[#274690] text-[#F5F3F5] font-normal text-[1.5rem] block p-2.5 w-fit mt-[-0.95rem]  ">
+            A UI/UX Designer and web designer 
+          </span>
+        </div>
+  
+        <div id="computer" class="border-solid border-red-500 w-[300px] h-fit my-auto ml-20 flex order-1 md:order-2 flex-col">
+          <div id="screen" class="bg-[#274690]  px-2.5 pb-6 pt-3 rounded-lg w-[260px] max-w-[260px] min-h-[150px] h-[150px] flex item-center justify-center mx-auto ">
+            <div id="inner-screen" class=" w-full h-full bg-[#F5F3F5] rounded-lg flex place-items-center justify-center text-center text-[#274690] text-[4rem] ">
+              &lt; / &gt;
+            </div>
+          </div>
 
-          <li
-           class=" md:ml-2.5 p-0 min-h-fit flex">
-            <a 
-             href="#about"
-             class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
-              About
-            </a>
-          </li>
+          <div id="keyboard" class=" w-[300px] h-[19px] bg-[#274690] rounded-b-xl mx-auto mt-[0.1rem] ">
+            
+          </div>
+        </div>
+      </section>
 
-          <li
-           class=" md:ml-4 p-0 min-h-fit flex">
-            <a 
-             href="#projects"
-             class="  md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
-              Projects
-            </a>
-          </li>
+      <section id="contact-links" class="">
 
-          <li
-           class=" md:ml-4 p-0 min-h-fit flex">
-            <a 
-             href="#contact"
-             class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
-              Contact
-            </a>
-          </li>
-
-        </ul>
-
-        <div class="flex items-center md:ml-[30px] mr-[10px]">
-          <a
-            href="" 
-            class="md:border-2 md:rounded-lg md:hover:bg-[#1088BC] md:hover:border-[#1088BC] md:border-[#15B6FB] bg-[#15B6FB] md:border-solid  md:max-w-fit  md:text-center text-white text-left no-underline py-2.5 px-4 outline-none ">
-            Download CV
-          </a>
-
+        <div id="github" class="">
+          <img src="" alt="">
         </div>
 
-      </nav>
-      <!-- NAVBAR ENDS HERE -->
+      </section>
 
+    </div>
 
 
     </main>
