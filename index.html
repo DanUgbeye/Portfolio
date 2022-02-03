@@ -8,47 +8,47 @@
     <title>Portfolio</title>
   </head>
 
-  <body class="bg-[#F5F3F5] p-0 m-0 text-[0.75rem] ">
+  <body class="bg-[#F5F3F5] p-0 m-0 text-[0.65rem] md:text-[1rem] xl:text-[2rem] relative ">
 
   <!-- NAVBAR STARTS HERE -->
     <nav
-    class="w-full flex justify-end shadow-md sticky ">
+    class="w-full max-h-[70px] h-[70px] flex justify-end shadow-md fixed top-0 left-0 right-0 ">
 
       <ul
-      class="list-none md:flex p-0 md:ml-auto  ">
+      class="list-none md:flex p-0 md:ml-auto my-0  ">
 
         <li
-        class=" md:ml-2.5 p-0 min-h-fit flex ">
+        class=" md:ml-2.5 p-0 h-fit flex ">
           <a 
           href="#home"
-          class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
+          class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid text-lg md:max-w-fit md:text-center text-[#274690] text-left no-underline  px-2 outline-none hover:tracking-wider ">
             Home
           </a>
         </li>
 
         <li
-        class=" md:ml-4 p-0 min-h-fit flex">
+        class=" md:ml-4 p-0 h-fit flex">
           <a 
           href="#about"
-          class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
+          class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid text-lg md:max-w-fit md:text-center text-[#274690] text-left no-underline  px-2 outline-none hover:tracking-wider ">
             About
           </a>
         </li>
 
         <li
-        class=" md:ml-4 p-0 min-h-fit flex">
+        class=" md:ml-4 p-0 h-fit flex">
           <a 
           href="#projects"
-          class="  md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
+          class="  md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid text-lg md:max-w-fit md:text-center text-[#274690] text-left no-underline  px-2 outline-none hover:tracking-wider ">
             Projects
           </a>
         </li>
 
         <li
-        class=" md:ml-4 p-0 min-h-fit flex">
+        class=" md:ml-4 p-0 h-fit flex">
           <a 
           href="#contact"
-          class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid  md:max-w-fit md:text-center text-[#274690] text-left no-underline py-2.5 px-4 outline-none ">
+          class="md:border-2 md:rounded-lg md:hover:bg-[#274690] md:hover:text-white md:border-[#274690] md:border-solid text-lg md:max-w-fit md:text-center text-[#274690] text-left no-underline  px-2 outline-none hover:tracking-wider ">
             Contact
           </a>
         </li>
@@ -58,7 +58,7 @@
       <div class="flex items-center md:ml-4 mr-2.5">
         <a
           href="" 
-          class="md:border-2 md:rounded-lg md:hover:bg-[#1088BC] md:hover:border-[#1088BC] md:border-[#15B6FB] bg-[#15B6FB] md:border-solid  md:max-w-fit  md:text-center text-white text-left no-underline py-2.5 px-4 outline-none ">
+          class="md:border-2 md:rounded-lg md:hover:bg-[#1088BC] md:hover:border-[#1088BC] md:border-[#15B6FB] bg-[#15B6FB] md:border-solid text-lg md:max-w-fit  md:text-center text-white text-left no-underline  px-2 outline-none ">
           Download CV
         </a>
 
@@ -71,43 +71,60 @@
     <main
      class="px-5">
 
-    <div id="home " class="min-h-[100vh] flex ">
+      <div id="home " class="min-h-[100vh] max-h-[100vh] flex flex-col md:flex-row md:justify-between place-items-center">
 
-      <section id="intro" class=" flex flex-col md:flex-row  ">
-        <div class="my-auto order-2 md:order-1 ">
-          <p class="text-[#274690] font-semibold text-[2.25rem] leading-[0.625rem] ">
-            Hello
-          </p>
-          <p class="text-[#274690] font-semibold text-[2.25rem] leading-[0.625rem] ">
-            I'm Daniel Ugbeye
-          </p>
-          <span class="bg-[#274690] text-[#F5F3F5] font-normal text-[1.5rem] block p-2.5 w-fit mt-[-0.95rem]  ">
-            A UI/UX Designer and web designer 
-          </span>
-        </div>
-  
-        <div id="computer" class="border-solid border-red-500 w-[300px] h-fit my-auto ml-20 flex order-1 md:order-2 flex-col">
-          <div id="screen" class="bg-[#274690]  px-2.5 pb-6 pt-3 rounded-lg w-[260px] max-w-[260px] min-h-[150px] h-[150px] flex item-center justify-center mx-auto ">
-            <div id="inner-screen" class=" w-full h-full bg-[#F5F3F5] rounded-lg flex place-items-center justify-center text-center text-[#274690] text-[4rem] ">
-              &lt; / &gt;
+        <section id="intro" class=" flex flex-col md:flex-row md:mr-6 w-full md:w-[90%] place-self-end mb-[10%] ">
+
+          <div class="flex flex-col justify-items-end h-fit order-2 md:order-1 justify-self-end mt-[10%] md:mt-0 ">
+            <div class="text-[#274690] font-semibold text-4xl md:text-[2.25rem]  ">
+              Hello
+            </div>
+            <div class="text-[#274690] font-semibold text-4xl md:text-[2.25rem]  ">
+              I'm Daniel Ugbeye
+            </div>
+            <span class="bg-[#274690] text-[#F5F3F5] font-normal text-lg mt-1 md:text-[1.5rem] block p-2.5 w-fit ">
+              A UI/UX designer and web developer 
+            </span>
+          </div>
+    
+          <div id="computer" class=" w-[300px] h-fit  ml-auto md:ml-20 flex order-1 md:order-2 flex-col">
+            <div id="screen" class="bg-[#274690] px-2.5 pb-6 pt-3 rounded-lg w-[260px] max-w-[260px] min-h-[150px] h-[150px] flex item-center justify-center mx-auto ">
+              <div id="inner-screen" class=" w-full h-full bg-[#F5F3F5] rounded-lg flex place-items-center justify-center text-center text-[#274690] font-bold text-[4rem] ">
+                &lt; / &gt;
+              </div>
+            </div>
+
+            <div id="keyboard" class=" w-[300px] h-[19px] bg-[#274690] rounded-b-xl mx-auto mt-[0.2rem] ">
+              
             </div>
           </div>
+        </section>
 
-          <div id="keyboard" class=" w-[300px] h-[19px] bg-[#274690] rounded-b-xl mx-auto mt-[0.1rem] ">
-            
+        <section id="contact-links" class=" flex justify-center gap-5 md:flex-col m-0 w-full md:w-[10%] mt-10 md:mt-[30%] md:justify-self-end place-items-center ">
+
+          <!-- Github Link -->
+          <div id="github" class=" w-[3rem] h-[3rem] mb-5 block ">
+            <img src="/myP/img/Github.svg" alt="Github" class=" w-[3rem] h-[3rem]  ">
           </div>
-        </div>
-      </section>
 
-      <section id="contact-links" class="">
+          <!-- Linkedin Link -->
+          <div id="linkedin" class=" w-[3rem] h-[3rem] mb-5 block ">
+            <img src="/myP/img/Linkedin.svg" alt="Linkedin" class=" w-[3rem] h-[3rem]  ">
+          </div>
 
-        <div id="github" class="">
-          <img src="" alt="">
-        </div>
+          <!-- Twitter Link -->
+          <div id="twitter" class=" w-[3rem] h-[3rem] mb-5 block ">
+            <img src="/myP/img/Twitter.svg" alt="Twitter" class=" w-[3rem] h-[3rem]  ">
+          </div>
 
-      </section>
+          <!-- Mail link -->
+          <div id="mail" class=" w-[3rem] h-[3rem] mb-5 block ">
+            <img src="/myP/img/Mail.svg" alt="Mail" class=" w-[3rem] h-[3rem]  ">
+          </div>
 
-    </div>
+        </section>
+
+      </div>
 
 
     </main>
