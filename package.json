@@ -5,8 +5,8 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "style": "npx tailwindcss -i ./src/input.css -o ./style.css --watch",
-    "build-style": "npx tailwind -i ./src/input.css -o ./style.css --build"
+    "style": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "build-style": "npx tailwind -i ./src/input.css -o ./dist/style.css --build"
   },
   "dependencies": {
     "sweetalert2": "^11.3.1",
