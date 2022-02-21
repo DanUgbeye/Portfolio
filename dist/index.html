@@ -12,7 +12,7 @@
 
   <!-- NAVBAR STARTS HERE -->
     <nav
-    class="w-full bg-[#F5F3F5] max-h-[70px] h-[50px] flex justify-end shadow-md sticky top-0 left-0 right-0 ">
+    class="w-full bg-[#F5F3F5] max-h-[70px] h-[50px] flex justify-end place-items-center shadow-md sticky top-0 left-0 right-0 ">
 
       <ul
       class="list-none hidden md:flex p-0 md:ml-auto md:my-0 md:place-items-center  ">
@@ -55,27 +55,26 @@
 
       </ul>
 
-      <div class="flex items-center md:ml-4 mr-2.5">
         <a
-          href="" 
-          class="border-2 rounded-lg flex place-items-center justify-center  hover:bg-[#1088BC] hover:font-semibold hover:border-[#1088BC] border-[#15B6FB] bg-[#15B6FB] border-solid text-[0.8rem] max-w-[5.5rem] w-[5.5rem] max-h-[20px] h-[20px]  text-white no-underline  px-[0.4rem] py-[0.3rem] outline-none ">
+          href="#" 
+          class="border-2 rounded-lg flex place-items-center justify-center md:ml-4 mr-2.5 hover:bg-[#1088BC] hover:font-semibold hover:border-[#1088BC] border-[#15B6FB] bg-[#15B6FB] border-solid text-[0.8rem] max-w-[5.5rem] w-[5.5rem] max-h-[20px] h-[20px]  text-white no-underline  px-[0.4rem] py-[0.3rem] outline-none ">
           Download CV
         </a>
 
-      </div>
 
     </nav>
     <!-- NAVBAR ENDS HERE -->
 
 
     <main
-     class="px-5">
+     class="px-5 pb-6">
 
-      <section id="home" class="min-h-[100vh] max-h-[100vh] flex flex-col md:flex-row md:justify-between py-[1rem] place-items-center">
+     <!-- HOME SECTION -->
+      <section id="home" class="min-h-[100vh] max-h-[100vh] flex flex-col py-[1rem] place-items-center justify-center">
 
-        <section id="intro" class=" flex flex-col md:flex-row md:mr-6 w-full md:w-[90%] place-self-end mb-[10%] ">
+        <section id="intro" class=" flex flex-col md:flex-row md:mr-6 w-full md:w-[90%] place-self-start mb-[10%] ">
 
-          <div class="flex flex-col place-self-end h-fit order-2 md:order-1 justify-self-end mt-[10%] md:mt-0 ">
+          <div class="flex flex-col  h-fit order-2 md:order-1 justify-self-end mt-[10%] md:mt-0 ">
             <div class="text-[#274690] font-semibold text-4xl md:text-[2.25rem]  ">
               Hello
             </div>
@@ -89,7 +88,7 @@
     
           <div id="computer" class=" w-[300px] h-fit  ml-auto md:ml-20 flex order-1 md:order-2 flex-col">
             <div id="screen" class="bg-[#274690] px-2.5 pb-6 pt-3 rounded-lg w-[260px] max-w-[260px] min-h-[150px] h-[150px] flex item-center justify-center mx-auto ">
-              <div id="inner-screen" class=" w-full h-full bg-[#F5F3F5] rounded-lg flex place-items-center justify-center text-center text-[#274690] font-bold text-[4rem] ">
+              <div id="inner-screen" class=" w-full h-full bg-[#F5F3F5] rounded-lg flex place-items-center justify-center text-center text-purple-400 font-bold text-[4rem] ">
                 &lt; / &gt;
               </div>
             </div>
@@ -100,71 +99,212 @@
           </div>
         </section>
 
-        <section id="contact-links" class=" flex h-full gap-5 w-full justify-center md:flex-col md:w-[10%] md:mt-[0] md:justify-self-end ">
+        <section id="contact-links" class=" border-solid border-[#15B6FB] rounded-xl flex h-fit w-full justify-evenly place-items-center ">
 
           <!-- Github Link -->
-          <div id="github" class=" w-[3rem] h-[3rem] mb-5 block ">
-            <img src="../dist/img/Github.svg" alt="Github" class=" w-[3rem] h-[3rem]  ">
-          </div>
+          <a href="#" id="github" class=" w-[2.5rem] h-[3.5rem] block ">
+            <img src="../dist/img/Github.svg" alt="Github" class=" w-[2.5rem] h-[3.5rem]  ">
+          </a href="#">
 
           <!-- Linkedin Link -->
-          <div id="linkedin" class=" w-[3rem] h-[3rem] mb-5 block ">
-            <img src="../dist/img/Linkedin.svg" alt="Linkedin" class=" w-[3rem] h-[3rem]  ">
-          </div>
+          <a href="#" id="linkedin" class=" w-[2.5rem] h-[3.5rem] block ">
+            <img src="../dist/img/Linkedin.svg" alt="Linkedin" class=" w-[2.5rem] h-[3.5rem]  ">
+          </a href="#">
 
           <!-- Twitter Link -->
-          <div id="twitter" class=" w-[3rem] h-[3rem] mb-5 block ">
-            <img src="../dist/img/Twitter.svg" alt="Twitter" class=" w-[3rem] h-[3rem]  ">
-          </div>
+          <a href="#" id="twitter" class=" w-[2.5rem] h-[3.5rem] block ">
+            <img src="../dist/img/Twitter.svg" alt="Twitter" class=" w-[2.5rem] h-[3.5rem]  ">
+          </a href="#">
 
           <!-- Mail link -->
-          <div id="mail" class=" w-[3rem] h-[3rem] mb-5 block ">
-            <img src="../dist/img/Mail.svg" alt="Mail" class=" w-[3rem] h-[3rem]  ">
-          </div>
+          <a href="#" id="mail" class=" w-[2.5rem] h-[3.5rem] block ">
+            <img src="../dist/img/Mail.svg" alt="Mail" class=" w-[2.5rem] h-[3.5rem]  ">
+          </a href="#">
 
         </section>
 
       </section>
 
+      <!-- ABOUT SECTION -->
       <section id="about"
-      class="max-w-3xl mx-auto flex flex-col h-fit max-h-[100vh] pt-[90px] ">
+      class="max-w-3xl mx-auto bg-[#0d35ad44] shadow-2xl p-2.5 flex flex-col h-fit px-6  mt-[90px] rounded-lg border border-solid border-[#274690] ">
 
-        
-        <article class="bg-white rounded-md p-2.5  ">
           <h2
-          class="text-[#274690]  ">
+          class="text-[#274690] font-light text-5xl text-left ">
             About Me
           </h2>
-          I am Daniel Ugbeye, a guy who recentlty got into the web development space.
-          I am very passionate about coding, especially Object Oriented Programing(OOP) and I love to work with teams.
+          <p class=" text-gray-700 text-lg ">
+            I am Daniel Ugbeye, a guy who recently got into the web development space.
+            I am very passionate about coding, especially Object Oriented Programing(OOP) and I love to work with teams.
+            Daniel is a self-motivated developer with a passion for programming, a strong sense of commitment and pays attention to detail. 
+            He is a lover of Object Oriented programming(OOP) style and can use any programming language that works well with OOP concepts. 
+            He is a team player and is able to work well under pressure with little or no supervision.
+            &nbsp;
+          </p>
 
-        </article>
-
-
-
-      </section>
-
-      <section id="qualifications"
-      class="max-w-3xl mx-auto flex flex-col h-[100vh] max-h-[100vh] pt-[90px] ">
-
-        <h2>Qualifications</h2>
-        <article class="bg-white rounded-md p-2.5  ">
+        <!-- EDUCATION SECTION -->
+        <section id="education"
+        class="w-full flex flex-col h-fit max-h-[100vh] my-6 ">
+  
           <h3
-          class="text-[#274690]  ">
+          class="text-[#274690] m-0 text-2xl font-light ">
             Education
           </h3>
-          <hr class="text-[#274690] mt-[20px] mb-[2rem] ">
-          <p class="me">
-            I am Daniel Ugbeye, a guy who recentlty got into the web development space.
-            I am very passionate about coding, especially Object Oriented Programing(OOP) and I love to work with teams.
-          </p>
-          
 
-        </article>
+          <!-- Horizontal rule -->
+          <div class="w-full h-[2px] bg-[#274690] rounded-2xl "></div>
+
+          <ul id="edu-list" class="m-0 text-gray-700 ">
+            
+            <li class="edu-group">
+              <p>
+                <span id="edu-location" class=" font-semibold ">Bigstack Technologies</span>
+                <span id="edu-duration" class=" font-light text-[0.7rem] italic ">Aug 2021 - Nov 2021</span>
+              </p>
+              <p id="edu-cert" class=" font-light text-sm italic pl-4 mt-[-10px] ">Frontend Web Development Internship</p>
+            </li>
+
+            <li class="edu-group">
+              <p>
+                <span id="edu-location" class=" font-semibold ">University of Calabar</span>
+                <span id="edu-duration" class=" font-light text-[0.7rem] italic ">2018 - 2023</span>
+              </p>
+              <p id="edu-cert" class=" font-light text-sm italic pl-4 mt-[-10px] ">B.Sc. Computer Science</p>
+            </li>
+
+            <li class="edu-group">
+              <p>
+                <span id="edu-location" class=" font-semibold ">Holy Family High school</span>
+                <span id="edu-duration" class=" font-light text-[0.7rem] italic ">Sept 2011 - Jul 2017</span>
+              </p>
+              <p id="edu-cert" class=" font-light text-sm italic pl-4 mt-[-10px] ">High School (SSCE)</p>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience"
+        class="w-full flex flex-col h-fit max-h-[100vh] my-6 ">
+  
+          <h3
+          class="text-[#274690] m-0 text-2xl font-light ">
+            Experience
+          </h3>
+
+          <!-- Horizontal rule -->
+          <div class="w-full h-[2px] bg-[#274690] rounded-2xl "></div>
+
+          <ul id="exp-list" class="m-0 text-gray-700 ">
+            
+            <li class="exp-group">
+              <p>
+                <span id="exp-job" class=" font-semibold ">Intern Frontend Web Developer</span>
+                <span id="exp-duration" class=" font-light text-[0.7rem] italic ">Aug 2021 - Nov 2021</span>
+              </p>
+              <p id="exp-org" class=" font-light text-sm italic pl-4 mt-[-10px] ">Bigstack Technologies </p>
+              <p id="exp-desc" class=" font-light text-sm italic pl-4 mt-[-10px] ">What did I do? </p>
+
+            </li>
+            
+            <li class="exp-group">
+              <p>
+                <span id="exp-job" class=" font-semibold ">Intern Backend Web Developer</span>
+                <span id="exp-duration" class=" font-light text-[0.7rem] italic ">Jan 2022 - Present</span>
+              </p>
+              <p id="exp-org" class=" font-light text-sm italic pl-4 mt-[-10px] ">Topskill </p>
+              <p id="exp-desc" class=" font-light text-sm italic pl-4 mt-[-10px] ">What did I do? </p>
+
+            </li>
+          </ul>
+
+        </section>
+
+        <!-- KEY SKILLS SECTION -->
+        <section id="key-skills"
+        class="w-full flex flex-col h-fit max-h-[100vh] my-6 ">
+  
+          <h3
+          class="text-[#274690] m-0 text-2xl font-light ">
+            Key Skills
+          </h3>
+
+          <!-- Horizontal rule -->
+          <div class="w-full h-[2px] bg-[#274690] rounded-2xl mb-5 "></div>
+
+          <div id="skills" class=" flex flex-wrap justify-evenly md:justify-none gap-8 w-[80%] mx-auto  ">
+
+            <!-- HTML LOGO -->
+            <div id="html" class=" shadow-black shadow-sm items-center border border-solid border-[#274690] w-fit h-fit max-w-[5rem] max-h-[5rem] aspect-auto flex flex-col rounded-md py-2 px-3 ">
+              <img src="./img/skills/html5-original.svg" alt="HTML logo" class=" w-11 h-11 max-w-11 max-h-11 mb-2" >
+              <label for="html" class=" text-[0.7rem] ">HTML5</label>
+            </div>
+
+            <!-- CSS LOGO -->
+            <div id="css" class=" shadow-black shadow-sm items-center border border-solid border-[#274690] w-fit h-fit max-w-[5rem] max-h-[5rem] aspect-auto flex flex-col rounded-md py-2 px-3 ">
+              <img src="./img/skills/css3-original.svg" alt="CSS logo" class=" w-11 h-11 max-w-11 max-h-11 mb-2" >
+              <label for="css" class=" text-[0.7rem] ">CSS3</label>
+            </div>
+
+            <!-- JS LOGO -->
+            <div id="js" class=" shadow-black shadow-sm items-center border border-solid border-[#274690] w-fit h-fit max-w-[5rem] max-h-[5rem] aspect-auto flex flex-col rounded-md py-2 px-3 ">
+              <img src="./img/skills/javascript-original.svg" alt="JS logo" class=" w-11 h-11 max-w-11 max-h-11 mb-2" >
+              <label for="js" class=" text-[0.7rem] ">Javascript</label>
+            </div>
+
+            <!-- GIT LOGO -->
+            <div id="git" class=" shadow-black shadow-sm items-center border border-solid border-[#274690] w-fit h-fit max-w-[5rem] max-h-[5rem] aspect-auto flex flex-col rounded-md py-2 px-3 ">
+              <img src="./img/skills/git-original.svg" alt="JS logo" class=" w-11 h-11 max-w-11 max-h-11 mb-2" >
+              <label for="git" class=" text-[0.7rem] ">Git</label>
+            </div>
+
+            <!-- TAILWIND CSS LOGO -->
+            <div id="tailwindcss" class=" shadow-black shadow-sm items-center border border-solid border-[#274690] w-fit h-fit max-w-[5rem] max-h-[5rem] aspect-auto flex flex-col rounded-md py-2 px-3 ">
+              <img src="./img/skills/tailwindcss-plain.svg" alt="JS logo" class=" w-11 h-11 max-w-11 max-h-11 mb-2" >
+              <label for="tailwindcss" class=" text-[0.7rem] ">Tailwind</label>
+            </div>
+
+            <!-- BOOTSTRAP LOGO -->
+            <div id="bootstrap" class=" shadow-black shadow-sm items-center border border-solid border-[#274690] w-fit h-fit max-w-[5rem] max-h-[5rem] aspect-auto flex flex-col rounded-md py-2 px-3 ">
+              <img src="./img/skills/bootstrap-original.svg" alt="JS logo" class=" w-11 h-11 max-w-11 max-h-11 mb-2" >
+              <label for="bootstrap" class=" text-[0.7rem] ">Bootstrap</label>
+            </div>
+
+            <!-- PHP LOGO -->
+            <div id="php" class=" shadow-black shadow-sm items-center border border-solid border-[#274690] w-fit h-fit max-w-[5rem] max-h-[5rem] aspect-auto flex flex-col rounded-md py-2 px-3 ">
+              <img src="./img/skills/php-plain.svg" alt="JS logo" class=" w-11 h-11 max-w-11 max-h-11 mb-2" >
+              <label for="php" class=" text-[0.7rem] ">PHP</label>
+            </div>
+            
+            <!-- MYSQL LOGO -->
+            <div id="mysql" class=" shadow-black shadow-sm items-center border border-solid border-[#274690] w-fit h-fit max-w-[5rem] max-h-[5rem] aspect-auto flex flex-col rounded-md py-2 px-3 ">
+              <img src="./img/skills/mysql-plain.svg" alt="JS logo" class=" w-11 h-11 max-w-11 max-h-11 mb-2" >
+              <label for="mysql" class=" text-[0.7rem] ">MySQL</label>
+            </div>
+
+            <!-- GITHUB LOGO -->
+            <div id="github" class=" shadow-black shadow-sm items-center border border-solid border-[#274690] w-fit h-fit max-w-[5rem] max-h-[5rem] aspect-auto flex flex-col rounded-md py-2 px-3 ">
+              <img src="./img/skills/github-original.svg" alt="JS logo" class=" w-11 h-11 max-w-11 max-h-11 mb-2" >
+              <label for="github" class=" text-[0.7rem] ">Github</label>
+            </div>
+
+            <!-- C++ LOGO -->
+            <div id="c++" class=" shadow-black shadow-sm items-center border border-solid border-[#274690] w-fit h-fit max-w-[5rem] max-h-[5rem] aspect-auto flex flex-col rounded-md py-2 px-3 ">
+              <img src="./img/skills/cplusplus-original.svg" alt="JS logo" class=" w-11 h-11 max-w-11 max-h-11 mb-2" >
+              <label for="c++" class=" text-[0.7rem] ">C++</label>
+            </div>
+
+
+
+          </div>
+
+        </section>
 
 
 
       </section>
+
 
 
     </main>
