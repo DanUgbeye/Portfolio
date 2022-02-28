@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="text-[12px] md:text-[16px] ">
+<html lang="en" class="text-[12px] md:text-[16px] m-0 p-0 max-w-[100vw] overflow-x-hidden ">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
     <title>Portfolio</title>
   </head>
 
-  <body class="bg-[#F5F3F5] p-0 m-0 relative ">
+  <body class="bg-[#F5F3F5] p-0 m-0 max-w-[100vw]">
 
   <!-- NAVBAR STARTS HERE -->
     <nav
@@ -67,7 +67,7 @@
 
 
     <main
-     class=" pb-6">
+     class=" p-0 m-0">
 
      <!-- HOME SECTION -->
       <section id="home" class="min-h-[100vh] max-h-[100vh] flex flex-col py-[1rem] place-items-center justify-center">
@@ -99,7 +99,7 @@
           </div>
         </section>
 
-        <section id="contact-links" class=" border-solid border-[#15B6FB] rounded-xl flex h-fit w-full justify-evenly place-items-center ">
+        <section id="contact-links" class=" rounded-xl flex h-fit w-full justify-evenly place-items-center ">
 
           <!-- Github Link -->
           <a href="#" id="github" class=" w-[2.5rem] h-[3.5rem] block ">
@@ -358,7 +358,7 @@
       <!-- PROJECTS SECTION -->
       <section id="projects" class=" max-w-3xl mx-auto p-2.5 h-fit pt-[4rem] ">
 
-        <section id="project-container" class=" max-w-3xl p-2 mx-auto ">
+        <section id="project-container" class=" max-w-3xl mx-auto ">
 
           <h2 class=" text-[#274690] px-2 font-light text-4xl text-left ">Projects</h2>
 
@@ -411,15 +411,16 @@
       </section>
 
       <!-- CONTACT SECTION -->
-      <section id="contact" class=" bg-[#274690] w-full h-[100vh] p-2.5  ">
+      <section id="contact" class=" flex bg-[#274690] h-fit p-3  ">
 
-        <section class=" max-w-3xl mx-auto py-8 ">
+        <section class=" max-w-3xl w-full  mx-auto py-8 ">
           
           <h2 class=" text-white text-4xl font-light ">Contact Me</h2>
 
-          <div class=" w-full flex flex-col md:flex-row  ">
+          <div class=" xsm:grid xsm:grid-cols-[1fr_2fr] xsm:grid-flow-row w-full justify-center overflow-x-hidden ">
 
-            <div class=" w-full md:w-[50%] border-solid border-red-600 border  ">
+            <!-- CONTACT LINKS -->
+            <div class=" w-full  ">
 
               <h3 class=" text-[#f5f3f5] text-2xl font-light ">You can reach me on</h3>
 
@@ -469,27 +470,51 @@
 
             </div>
 
-            <div class=" w-full md:w-[50%] border-solid border-red-600 border ">
-
-              <!-- CONTACT FORM STATS HERE -->
-              <div id="email-form" class=" max-w-[90%] w-[90%] flex flex-col p-3 mx-auto h-fit border-solid border-orange-400 border   ">
-              
-                <div id="header" class=" flex h-fit ">
-                  <h3 class=" w-[70%] h-fit ">Send me an email</h3>
-                  <img src="#" alt="" class=" w-[30%] h-full bg-red-300  ">
-                </div>
-
-                <form action="" class=" flex flex-col w-[90%] px-1 items-center  " >
-
-                  <fieldset class=" py-1 outline-none border-0 m-0 w-[90%] block  ">
-                    <label class=" text-sm text-[#15b6fb] font-semibold  p-0 ">Email</label>
-                    <input type="email" name="email" id="email" class=" rounded-md outline-none border-0 w-[100%] p-2 m-0 max-w-[90%] ">
-                  </fieldset>
-
-                </form>
-              
+            <!-- CONTACT FORM STATS HERE -->
+            <div id="contact-form" class=" w-full max-w-[20rem] xsm:w-[90%] mt-10 xsm:mt-0 flex flex-col pt-0 pb-7 px-5 mx-auto h-fit bg-[#f5f3f5] rounded-md    ">
+            
+              <div id="header" class=" flex h-fit w-full my-7 ">
+                <h3 class=" w-[70%] h-fit text-4xl text-[#274690] font-light m-0 ">
+                  Send me an <br> 
+                  <span class=" text-5xl font-semibold ">
+                    email
+                  </span>
+                </h3>
+                <img src="#" alt="the send svg icon" class=" w-[30%] h-full bg-red-300  ">
               </div>
 
+              <form action="" class=" grid grid-flow-row items-center  " >
+
+                <!-- EMAIL INPUT FIELD -->
+                <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
+                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Email</label>
+                  <input type="email" name="email" id="email" placeholder="your email address" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#274690] py-2 m-0  ">
+                </div>
+
+                <!-- NAME/ORGANIZATION INPUT FIELD -->
+                <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
+                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Name / Organization</label>
+                  <input type="text" name="name" id="name" placeholder="your name" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#274690] py-2 m-0  ">
+                </div>
+
+                <!-- MESSAGE TITLE INPUT FIELD -->
+                <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
+                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Message Title</label>
+                  <input type="text" name="title" id="title" placeholder="message title" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#274690] py-2 m-0  ">
+                </div>
+
+                <!-- MESSAGE INPUT FIELD -->
+                <div class=" outline-none p-0  m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
+                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Your Message</label>
+                  <textarea name="message" id="message" rows="5" placeholder="your message" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-2 placeholder-slate-400 text-[#274690] py-2 m-0  resize-none "></textarea>
+                </div>
+
+                <div class=" flex justify-end m-0 p-0 ">
+                  <input type="submit" value="send" class=" w-full outline-0 bg-[#15B6FB] hover:bg-[#1088BC] border-0 rounded-md py-1 text-lg text-[#f5f3f5] font-semibold  ml-auto " >
+                </div>
+
+              </form>
+            
             </div>
 
           </div>
