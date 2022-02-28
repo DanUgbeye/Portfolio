@@ -149,6 +149,10 @@
   margin-top: 4rem;
 }
 
+.mt-0{
+  margin-top: 0px;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -561,6 +565,11 @@
   background-color: rgb(245 243 245 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#1B264F\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 38 79 / var(--tw-bg-opacity));
+}
+
 .p-0{
   padding: 0px;
 }
@@ -579,6 +588,14 @@
 
 .p-\[4rem\]{
   padding: 4rem;
+}
+
+.p-5{
+  padding: 1.25rem;
+}
+
+.p-4{
+  padding: 1rem;
 }
 
 .px-2{
@@ -1147,5 +1164,9 @@
 
   .xsm\:pl-4{
     padding-left: 1rem;
+  }
+
+  .xsm\:pl-0{
+    padding-left: 0px;
   }
 }
