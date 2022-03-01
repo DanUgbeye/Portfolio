@@ -12,3 +12,20 @@
 #pro-img:hover > div {
   opacity: 100%;
 }
+
+/* for hiding the menu */
+.hide {
+  transform: translatex(-100%);
+}
+
+/* for making the menu visible */
+.show {
+  transform: none
+}
+
+@layer components {
+  .active-link {
+    @apply md:text-white text-[#274690] bg-white md:bg-[#274690];
+  }
+
+}

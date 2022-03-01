@@ -13,17 +13,19 @@
   <!-- NAVBAR STARTS HERE -->
     <nav class="w-full bg-[#F5F3F5] max-h-[70px] z-50 h-[50px] flex justify-end items-center p-0 shadow-md sticky top-0 left-0 right-0  ">
 
-      <img src="./img/menu-icon.svg" alt="menu" class=" max-w-[32px] max-h-[32px] md:hidden mr-4 ">
+      <img id="expand-menu" src="./img/menu-icon.svg" alt="menu" class=" cursor-pointer max-w-[32px] max-h-[32px] md:hidden mr-4 ">
 
-      <ul class="  list-none p-0 absolute flex flex-col gap-5 px-[2rem] left-0 top-0 my-0 h-[100vh] max-h-[100vh] bg-[#274690] w-[70%] max-w-[18rem] border-r border-0 border-solid border-[#f5f3f5] opacity-100 md:px-0 md:h-fit md:top-[unset] md:pt-0 md:left-[unset] md:bg-transparent md:opacity-100 md:w-fit md:max-w-none md:mx-auto md:gap-0 md:flex md:flex-row md:border-none md:items-center  ">
+      <ul id="menu" class=" overflow-hidden list-none p-0 absolute hide flex flex-col gap-5 px-[2rem] left-0 top-0 my-0 h-[100vh] max-h-[100vh] bg-[#274690] w-[70%] max-w-[20rem] border-r border-0 border-solid border-[#f5f3f5] opacity-100 md:transform-none md:px-0 md:h-fit md:top-[unset] md:pt-0 md:left-[unset] md:bg-transparent md:opacity-100 md:w-fit md:max-w-none md:mx-auto md:gap-0 md:flex md:flex-row md:border-none md:items-center transition-all ease-in-out duration-400 ">
 
-        <img src="./img/close.svg" alt="menu icon" class=" max-w-[32px] absolute top-3 right-7 max-h-[32px] md:hidden mr-4  " >
+        <div class=" scale-x-100 hidden"></div>
+        <img id="close-menu" src="./img/close.svg" alt="menu icon" class=" cursor-pointer max-w-[32px] absolute top-3 right-7 max-h-[32px] md:hidden mr-4  " >
 
         <li
-        class=" md:ml-2.5 p-0 h-fit flex pt-[10rem] ">
+        class=" md:ml-2.5 p-0 h-fit flex pt-[14rem] md:pt-0 ">
           <a 
           href="#home"
-          class="  text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400 hover:text-[#274690] px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white w-full md:border rounded-lg md:hover:bg-[#274690] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight text-2xl ">
+          id="home-link"
+          class=" active-link text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal  w-full md:border rounded-lg md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:font-extralight text-2xl ">
             Home
           </a>
         </li>
@@ -32,7 +34,8 @@
         class=" md:ml-4 p-0 h-fit flex">
           <a 
           href="#about"
-          class="  text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400 hover:text-[#274690] px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white w-full md:border rounded-lg md:hover:bg-[#274690] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight text-2xl ">
+          id="about-link"
+          class="  text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white/30 w-full md:border rounded-lg md:hover:bg-[#4E74CF] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight text-2xl ">
             About
           </a>
         </li>
@@ -41,7 +44,8 @@
         class=" md:ml-4 p-0 h-fit flex">
           <a 
           href="#projects"
-          class="  text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400 hover:text-[#274690] px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white w-full md:border rounded-lg md:hover:bg-[#274690] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight text-2xl ">
+          id="projects-link"
+          class="  text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white/30 w-full md:border rounded-lg md:hover:bg-[#4E74CF] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight text-2xl ">
             Projects
           </a>
         </li>
@@ -50,7 +54,8 @@
         class=" md:ml-4 p-0 h-fit flex">
           <a 
           href="#contact"
-          class="  text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400 hover:text-[#274690] px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white w-full md:border rounded-lg md:hover:bg-[#274690] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight text-2xl ">
+          id="contact-link"
+          class="  text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white/30 w-full md:border rounded-lg md:hover:bg-[#4E74CF] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight text-2xl ">
             Contact
           </a>
         </li>
@@ -538,5 +543,6 @@
 
     </main>
 
+    <script src="./index.js"></script>
   </body>
 </html>
