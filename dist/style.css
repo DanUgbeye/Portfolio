@@ -819,6 +819,10 @@
   padding-top: 40%;
 }
 
+.pt-\[10rem\]{
+  padding-top: 10rem;
+}
+
 .text-left{
   text-align: left;
 }
