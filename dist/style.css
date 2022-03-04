@@ -929,6 +929,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 15rem;
 }
 
+.max-w-\[40rem\] {
+  max-width: 40rem;
+}
+
+.max-w-\[50rem\] {
+  max-width: 50rem;
+}
+
 .rotate-90 {
   --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1004,6 +1012,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-7 {
   gap: 1.75rem;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.justify-self-end {
+  justify-self: end;
 }
 
 .overflow-hidden {
@@ -1619,6 +1635,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     right: 2rem;
   }
 
+  .md\:top-\[1rem\] {
+    top: 1rem;
+  }
+
   .md\:order-1 {
     order: 1;
   }
@@ -1843,12 +1863,36 @@ Ensure the default browser behavior of the `hidden` attribute.
     top: 40%;
   }
 
+  .lg\:order-2 {
+    order: 2;
+  }
+
+  .lg\:order-1 {
+    order: 1;
+  }
+
+  .lg\:mb-7 {
+    margin-bottom: 1.75rem;
+  }
+
+  .lg\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .lg\:max-h-\[32rem\] {
     max-height: 32rem;
   }
 
   .lg\:max-h-\[25rem\] {
     max-height: 25rem;
+  }
+
+  .lg\:max-h-\[30rem\] {
+    max-height: 30rem;
+  }
+
+  .lg\:max-h-\[35rem\] {
+    max-height: 35rem;
   }
 
   .lg\:max-w-md {
@@ -1867,15 +1911,47 @@ Ensure the default browser behavior of the `hidden` attribute.
     max-width: 25rem;
   }
 
+  .lg\:max-w-\[30rem\] {
+    max-width: 30rem;
+  }
+
+  .lg\:max-w-\[35rem\] {
+    max-width: 35rem;
+  }
+
   .lg\:translate-y-\[-50\%\] {
     --tw-translate-y: -50%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
+  }
+
+  .lg\:self-center {
+    align-self: center;
+  }
+
+  .lg\:justify-self-start {
+    justify-self: start;
+  }
+
+  .lg\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 }
 
 @media (min-width: 640px) {
   .xsm\:absolute {
     position: absolute;
+  }
+
+  .xsm\:top-\[3rem\] {
+    top: 3rem;
   }
 
   .xsm\:mt-0 {
@@ -1896,6 +1972,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xsm\:max-w-\[30rem\] {
     max-width: 30rem;
+  }
+
+  .xsm\:max-w-\[17rem\] {
+    max-width: 17rem;
+  }
+
+  .xsm\:max-w-\[20rem\] {
+    max-width: 20rem;
   }
 
   .xsm\:grid-flow-row {
