@@ -26,7 +26,7 @@
 
 @layer components {
   .active-link {
-    @apply md:text-white text-[#274690] bg-white md:bg-[#274690];
+    @apply text-[#274690] bg-white md:bg-transparent md:rounded-none md:border-b-2 md:border-solid md:border-[#274690];
   }
 
 }

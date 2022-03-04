@@ -2,6 +2,8 @@ class MENU {
 
   constructor() {
 
+    console.log(this.navLinks);
+
     document.addEventListener('scroll', () => {
       this.navbarlinksActive();
       this.navDisplay();
@@ -75,7 +77,7 @@ class MENU {
   closeButton = document.querySelector('#close-menu');
   expandMenuButton = document.querySelector('#expand-menu');
   menu = document.querySelector('#menu');
-  navLinks = document.querySelectorAll('nav ul a #nav-link');
+  navLinks = document.querySelectorAll('#nav-link');
 
 
   openMenu = () => {
@@ -99,13 +101,13 @@ class MENU {
   
     if(activeLink) {
       activeLink.classList.remove('active-link');
-      activeLink.classList.add('text-white', 'md:text-[#274690]', 'hover:bg-white/30', 'md:hover:bg-[#4E74CF]', 'hover:ml-3');
+      activeLink.classList.add('text-white', 'md:text-[#274690]', 'hover:bg-white/30', 'md:hover:bg-slate-600/40', 'hover:ml-4');
       return;
     }
-    const allLinks = document.querySelectorAll('nav ul li a');
+    const allLinks = document.querySelectorAll('#nav-link');
     allLinks.forEach( (link) => {
       link.classList.remove('active-link');
-      link.classList.add('text-white', 'md:text-[#274690]', 'hover:bg-white/30', 'md:hover:bg-[#4E74CF]', 'hover:ml-3');
+      link.classList.add('text-white', 'md:text-[#274690]', 'hover:bg-white/30', 'md:hover:bg-slate-600/40', 'hover:ml-4');
     });
   
   }
@@ -116,7 +118,7 @@ class MENU {
     this.removeActiveLink();
     // console.log('made active link');
     const currentLink = link
-    currentLink.classList.remove('text-white', 'md:text-[#274690]', 'hover:bg-white/30', 'md:hover:bg-[#4E74CF]', 'hover:ml-3');
+    currentLink.classList.remove('text-white', 'md:text-[#274690]', 'hover:bg-white/30', 'md:hover:bg-slate-600/40', 'hover:ml-4');
     currentLink.classList.add('active-link');
     this.closeMenu();
     // console.log('result' + currentLink.classList.contains('active-link'))
