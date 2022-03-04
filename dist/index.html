@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="text-[14px] md:text-[16px] m-0 p-0 max-w-[100vw] overflow-x-hidden ">
+<html lang="en" class="text-[15px] md:text-[16px] m-0 p-0 overflow-x-hidden ">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,21 +11,22 @@
   <body class="bg-[#F5F3F5] p-0 m-0 max-w-[100vw] relative">
 
   <!-- NAVBAR STARTS HERE -->
-    <nav class="w-full bg-[#F5F3F5] max-h-[70px] z-50 h-[50px] flex justify-end items-center p-0 shadow-md sticky top-0 left-0 right-0  ">
+    <nav class="w-full bg-[#F5F3F5] max-h-[70px] z-50 h-[50px] flex justify-end items-center p-0 sticky top-0 left-0 right-0  ">
 
       <img id="expand-menu" src="./img/menu-icon.svg" alt="menu" class=" cursor-pointer max-w-[32px] max-h-[32px] md:hidden mr-4 ">
 
-      <ul id="menu" class=" overflow-hidden list-none p-0 absolute hide flex flex-col gap-5 px-[2rem] left-0 top-0 my-0 h-[100vh] max-h-[100vh] bg-[#274690] w-[70%] max-w-[20rem] border-r border-0 border-solid border-[#f5f3f5] opacity-100 md:transform-none md:px-0 md:h-fit md:top-[unset] md:pt-0 md:left-[unset] md:bg-transparent md:opacity-100 md:w-fit md:max-w-none md:mx-auto md:gap-0 md:flex md:flex-row md:border-none md:items-center transition-all ease-in-out duration-400 ">
+      <ul id="menu" class=" overflow-hidden list-none p-0 absolute hide flex flex-col gap-5 px-[2rem] left-0 top-0 my-0 h-[100vh] max-h-[100vh] bg-[#274690] w-[70%] max-w-[20rem] border-r border-0 border-solid border-[#f5f3f5] md:transform-none md:px-0 md:h-fit md:top-[unset] md:pt-0 md:left-[unset] md:bg-transparent md:w-fit md:justify-evenly md:max-w-none md:gap-0 md:flex md:flex-row md:border-none md:items-center transition-all ease-in-out duration-400 ">
 
-        <div class=" scale-x-100 hidden"></div>
+        <div class=" shadow-md hidden"></div>
+
         <img id="close-menu" src="./img/close.svg" alt="menu icon" class=" cursor-pointer max-w-[32px] absolute top-3 right-7 max-h-[32px] md:hidden mr-4  " >
 
         <li
-        class=" md:ml-2.5 p-0 h-fit flex pt-[14rem] md:pt-0 ">
+        class=" md:ml-2.5 p-0 h-fit flex mt-[14rem] md:mt-0 ">
           <a 
           href="#home"
           id="home-link"
-          class=" active-link text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal  w-full md:border rounded-lg md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:font-extralight text-2xl ">
+          class=" active-link text-left text-2xl no-underline md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal  w-full md:border rounded-lg md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:font-extralight ">
             Home
           </a>
         </li>
@@ -35,7 +36,7 @@
           <a 
           href="#about"
           id="about-link"
-          class="  text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white/30 w-full md:border rounded-lg md:hover:bg-[#4E74CF] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight text-2xl ">
+          class="  text-left text-2xl no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white/30 w-full md:border rounded-lg md:hover:bg-[#4E74CF] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight ">
             About
           </a>
         </li>
@@ -45,7 +46,7 @@
           <a 
           href="#projects"
           id="projects-link"
-          class="  text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white/30 w-full md:border rounded-lg md:hover:bg-[#4E74CF] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight text-2xl ">
+          class="  text-left text-2xl no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white/30 w-full md:border rounded-lg md:hover:bg-[#4E74CF] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight ">
             Projects
           </a>
         </li>
@@ -55,14 +56,14 @@
           <a 
           href="#contact"
           id="contact-link"
-          class="  text-left no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white/30 w-full md:border rounded-lg md:hover:bg-[#4E74CF] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight text-2xl ">
+          class="  text-left text-2xl no-underline hover:ml-3 md:hover:ml-0 transition-all ease-in-out duration-400  px-2 py-2.5 md:py-1 outline-none font-normal text-white hover:bg-white/30 w-full md:border rounded-lg md:hover:bg-[#4E74CF] md:hover:text-[#f5f3f5] md:border-[#274690] md:border-solid md:text-sm md:max-w-fit md:text-center md:text-[#274690] md:font-extralight ">
             Contact
           </a>
         </li>
 
         <a
           href="#" 
-          class=" transition-all ease-in-out duration-400 text-xl border-2 rounded-lg flex place-items-center justify-center md:ml-4 mr-2.5 hover:bg-[#1088BC] hover:font-semibold hover:border-[#1088BC] border-[#15B6FB] bg-[#15B6FB] border-solid w-[9rem] max-w-[9rem] h-[2.5rem] md:text-[0.8rem] md:max-w-[5.5rem] md:w-[5.5rem] md:max-h-[20px] md:h-[20px]  text-white no-underline px-[0.4rem] py-[0.3rem] outline-none ">
+          class=" transition-all ease-in-out duration-400 text-lg border-2 rounded-lg flex items-center justify-center md:mx-4 hover:bg-[#1088BC] hover:font-semibold hover:border-[#1088BC] border-[#15B6FB] bg-[#15B6FB] border-solid w-[9rem] max-w-[9rem] h-[3rem] md:text-[0.8rem] md:max-w-[6.5rem] md:w-[6.5rem] md:max-h-[2rem] md:h-[2rem] text-white no-underline px-[0.4rem] py-[0.3rem] outline-none ">
           Download CV
         </a>
 
@@ -71,73 +72,50 @@
     </nav>
     <!-- NAVBAR ENDS HERE -->
 
-
     <main
-     class=" p-0 m-0">
+     class=" p-0 m-0 flex flex-col">
 
      <!-- HOME SECTION -->
-      <section id="home" class="min-h-[100vh] max-h-[100vh] flex flex-col py-[1rem] place-items-center justify-center">
+      <section id="home" class=" h-[95vh] min-h-[90vh] flex flex-col py-[1rem] pl-10 justify-center  border-b-4 border-0 border-solid border-[#274690] ">
 
-        <section id="intro" class=" flex flex-col md:flex-row md:mr-6 w-full md:w-[90%] place-self-start mb-[10%] ">
+        <section id="intro" class=" flex flex-col w-full pt-4 mb-3  ">
 
-          <div class="flex flex-col  h-fit order-2 md:order-1 justify-self-end mt-[10%] md:mt-0 ">
-            <div class="text-[#274690] font-semibold text-4xl md:text-[2.25rem]  ">
+          <div class="flex flex-col h-fit md:mt-0 w-[90%] max-w-[35rem] ">
+            <div class="text-[#274690] font-semibold text-4xl ">
               Hello
             </div>
-            <div class="text-[#274690] font-semibold text-4xl md:text-[2.25rem]  ">
+            <div class="text-[#274690] font-semibold text-4xl ">
               I'm Daniel Ugbeye
             </div>
-            <span class="bg-[#274690] text-[#F5F3F5] font-normal text-lg mt-1 md:text-[1.5rem] block p-2.5 w-fit ">
-              A UI/UX designer and web developer 
+            <span class=" text-[#274690] font-light text-[1rem] leading-6 md:text-lg mt-1 block p-2.5 pl-0 ">
+              A web designer and developer with a great taste for pixel perfect designs. I build highly scalable and responsive websites, feel free to hit me up if you got a job. You will be glad you did.
             </span>
           </div>
-    
-          <div id="computer" class=" w-[300px] h-fit  ml-auto md:ml-20 flex order-1 md:order-2 flex-col">
-            <div id="screen" class="bg-[#274690] px-2.5 pb-6 pt-3 rounded-lg w-[260px] max-w-[260px] min-h-[150px] h-[150px] flex item-center justify-center mx-auto ">
-              <div id="inner-screen" class=" w-full h-full bg-[#F5F3F5] rounded-lg flex place-items-center justify-center text-center text-purple-400 font-bold text-[4rem] ">
-                &lt; / &gt;
-              </div>
-            </div>
-
-            <div id="keyboard" class=" w-[300px] h-[19px] bg-[#274690] rounded-b-xl mx-auto mt-[0.2rem] ">
-              
-            </div>
+          
+          <div id="contact-links" class=" p-0 w-sm max-w-sm flex gap-4 ">
+  
+            <a href="#" class=" shadow-[0px_3px_4px_#33333390] bg-orange-500 hover:bg-orange-700 p-3 rounded-xl no-underline text-[#f5f3f5] ">
+              Contact Me
+            </a>
+  
+            <a href="#" class=" shadow-[0px_3px_4px_#33333390] bg-[#15B6FB] hover:bg-[#1088BC] p-3 rounded-xl no-underline text-[#f5f3f5] ">
+              Download CV
+            </a>
+  
           </div>
-        </section>
-
-        <section id="contact-links" class=" rounded-xl flex h-fit w-full justify-evenly place-items-center ">
-
-          <!-- Github Link -->
-          <a href="#" id="github" class=" w-[2.5rem] h-[3.5rem] block ">
-            <img src="../dist/img/Github.svg" alt="Github" class=" w-[2.5rem] h-[3.5rem]  ">
-          </a>
-
-          <!-- Linkedin Link -->
-          <a href="#" id="linkedin" class=" w-[2.5rem] h-[3.5rem] block ">
-            <img src="../dist/img/Linkedin.svg" alt="Linkedin" class=" w-[2.5rem] h-[3.5rem]  ">
-          </a>
-
-          <!-- Twitter Link -->
-          <a href="#" id="twitter" class=" w-[2.5rem] h-[3.5rem] block ">
-            <img src="../dist/img/Twitter.svg" alt="Twitter" class=" w-[2.5rem] h-[3.5rem]  ">
-          </a>
-
-          <!-- Mail link -->
-          <a href="#" id="mail" class=" w-[2.5rem] h-[3.5rem] block ">
-            <img src="../dist/img/Mail.svg" alt="Mail" class=" w-[2.5rem] h-[3.5rem]  ">
-          </a>
 
         </section>
+
 
       </section>
 
       <!-- ABOUT SECTION -->
-      <section id="about" class="max-w-3xl mx-auto p-2.5 h-fit pt-[6rem] ">
+      <section id="about" class=" w-full h-fit pt-[2rem] pb-[4rem] border-b-4 border-0 border-solid border-[#274690] ">
 
-        <section class="  border border-solid border-[#274690] rounded-lg py-8 px-6 shadow-lg shadow-slate-500 ">
+        <section class=" max-w-3xl w-full mx-auto px-6  ">
           
           <h2
-          class="text-[#274690] absolute -mt-[3.5rem] bg-[#F5F3F5] px-2 font-light text-4xl text-left ">
+          class="text-[#274690] bg-[#F5F3F5] my-10 font-light text-4xl text-center ">
             About Me
           </h2>
           <p class=" text-gray-700 text-lg ">
@@ -158,32 +136,26 @@
             </h3>
 
             <!-- Horizontal rule -->
-            <div class="w-full h-[2px] bg-[#274690] rounded-2xl "></div>
+            <div class="w-full h-[2px] bg-[#274690] mb-3 rounded-2xl "></div>
 
-            <ul id="edu-list" class="m-0 text-gray-700 ">
+            <ul id="edu-list" class="m-0 ml-10 list-disc text-gray-700 ">
+
+              <li class="edu-group mb-3">                
+                <p id="edu-location" class=" font-semibold ">B.Sc. Computer Science</p>
+                <p id="edu-duration" class="  "> University of Calabar</p>
+                <p id="edu-cert" class=" font-light text-sm italic ">2018 - 2023</p>
+              </li>
               
-              <li class="edu-group">
-                <p>
-                  <span id="edu-location" class=" font-semibold ">Bigstack Technologies</span>
-                  <span id="edu-duration" class=" font-light text-[0.7rem] italic ">Aug 2021 - Nov 2021</span>
-                </p>
-                <p id="edu-cert" class=" font-light text-sm italic pl-4 mt-[-10px] ">Frontend Web Development Internship</p>
+              <li class="edu-group mb-3">                
+                <p id="edu-location" class=" font-semibold ">Frontend Web Development Internship</p>
+                <p id="edu-duration" class="  ">Bigstack Technologies</p>
+                <p id="edu-cert" class=" font-light text-sm italic ">Aug 2021 - Nov 2021</p>
               </li>
 
-              <li class="edu-group">
-                <p>
-                  <span id="edu-location" class=" font-semibold ">University of Calabar</span>
-                  <span id="edu-duration" class=" font-light text-[0.7rem] italic ">2018 - 2023</span>
-                </p>
-                <p id="edu-cert" class=" font-light text-sm italic pl-4 mt-[-10px] ">B.Sc. Computer Science</p>
-              </li>
-
-              <li class="edu-group">
-                <p>
-                  <span id="edu-location" class=" font-semibold ">Holy Family High school</span>
-                  <span id="edu-duration" class=" font-light text-[0.7rem] italic ">Sept 2011 - Jul 2017</span>
-                </p>
-                <p id="edu-cert" class=" font-light text-sm italic pl-4 mt-[-10px] ">High School (SSCE)</p>
+              <li class="edu-group mb-3">                
+                <p id="edu-location" class=" font-semibold ">High School (SSCE)</p>
+                <p id="edu-duration" class="  ">Holy Family High school</p>
+                <p id="edu-cert" class=" font-light text-sm italic ">Sept 2011 - Jul 2017</p>
               </li>
 
             </ul>
@@ -200,29 +172,24 @@
             </h3>
 
             <!-- Horizontal rule -->
-            <div class="w-full h-[2px] bg-[#274690] rounded-2xl "></div>
+            <div class="w-full h-[2px] bg-[#274690] mb-3 rounded-2xl "></div>
 
-            <ul id="exp-list" class="m-0 text-gray-700 ">
+            <ul id="exp-list" class="m-0 ml-10 list-disc text-gray-700 ">
               
-              <li class="exp-group">
-                <p>
-                  <span id="exp-job" class=" font-semibold ">Intern Frontend Web Developer</span>
-                  <span id="exp-duration" class=" font-light text-[0.7rem] italic ">Aug 2021 - Nov 2021</span>
-                </p>
-                <p id="exp-org" class=" font-light text-sm italic  mt-[-10px] ">at Bigstack Technologies </p>
-                <p id="exp-desc" class=" font-light text-sm italic pl-4 mt-[-10px] ">What did I do? </p>
-
+              <li class="exp-group mb-3">
+                <p id="exp-job" class=" font-semibold ">Intern Frontend Web Developer</p>
+                <p id="exp-duration" class="  ">Bigstack Technologies</p>
+                <p id="exp-org" class=" text-sm italic pb-2">Aug 2021 - Nov 2021</p>
+                <p id="exp-desc" class=" font-light text-sm italic max-w-[25rem] pl-4 -ml-4 border-l-2 border-solid border-[#15B6FB] ">Built web pages and ensured that they looked good on all devices making use of the current Industry standard and also beating the set deadlines.</p>
               </li>
               
-              <li class="exp-group">
-                <p>
-                  <span id="exp-job" class=" font-semibold ">Intern Backend Web Developer</span>
-                  <span id="exp-duration" class=" font-light text-[0.7rem] italic ">Jan 2022 - Present</span>
-                </p>
-                <p id="exp-org" class=" font-light text-sm italic  mt-[-10px] ">at Topskill </p>
-                <p id="exp-desc" class=" font-light text-sm italic pl-4 mt-[-10px] ">What did I do? </p>
-
+              <li class="exp-group mb-3">
+                <p id="exp-job" class=" font-semibold ">Intern Backend Web Developer</p>
+                <p id="exp-duration" class="  ">Topskill</p>
+                <p id="exp-org" class=" text-sm italic pb-2">Jan 2022 - Present</p>
+                <p id="exp-desc" class=" font-light text-sm italic max-w-[25rem] pl-4 -ml-4 border-l-2 border-solid border-[#15B6FB] ">Made use of Node.js, Express, Mongo db and other middleware frameworks to build REST API's and also tested them using PostMan.</p>
               </li>
+
             </ul>
 
           </section>
@@ -237,41 +204,26 @@
             </h3>
   
             <!-- Horizontal rule -->
-            <div class="w-full h-[2px] bg-[#274690] rounded-2xl "></div>
+            <div class="w-full h-[2px] bg-[#274690] mb-3 rounded-2xl "></div>
   
-            <ul id="edu-list" class="m-0 text-gray-700 ">
+            <ul id="edu-list" class="m-0 ml-10 list-disc text-gray-700 ">
               
-              <li class="cert-group">
-                <p>
-                  <span id="cert-name" class=" font-semibold ">Responsive Web Design</span>
-                  <span id="cert-date" class=" font-light text-[0.7rem] italic ">Dec 2021</span>
-                </p>
-                <p id="cert-org" class=" text-sm italic font-light mt-[-10px] ">
-                  from 
-                  <span id="org" class=" font-semibold "> FreeCodeCamp</span>
-                </p>
+              <li class="cert-group mb-3">
+                <p id="cert-name" class=" font-semibold ">B.Sc. Computer Science</p>
+                <p id="cert-date" class="  ">University of Calabar</p>
+                <p id="cert-org" class=" text-sm italic font-light ">2018 - 2023</p>
               </li>
   
-              <li class="cert-group">
-                <p>
-                  <span id="cert-name" class=" font-semibold ">B.Sc. Computer Science</span>
-                  <span id="cert-date" class=" font-light text-[0.7rem] italic ">2018 - 2023</span>
-                </p>
-                <p id="cert-org" class=" text-sm italic font-light mt-[-10px] ">
-                  from 
-                  <span id="org" class=" font-semibold "> University of Calabar</span>
-                </p>
+              <li class="cert-group mb-3">
+                <p id="cert-name" class=" font-semibold ">Responsive Web Design</p>
+                <p id="cert-date" class="  ">FreeCodeCamp</p>
+                <p id="cert-org" class=" text-sm italic font-light ">Dec 2021</p>
               </li>
   
-              <li class="cert-group">
-                <p>
-                  <span id="cert-name" class=" font-semibold ">C++ Certification</span>
-                  <span id="cert-date" class=" font-light text-[0.7rem] italic ">Mar 2020</span>
-                </p>
-                <p id="cert-org" class=" text-sm italic font-light mt-[-10px] ">
-                  from 
-                  <span id="org" class=" font-semibold "> Sololearn</span>
-                </p>
+              <li class="cert-group mb-3">
+                <p id="cert-name" class=" font-semibold ">C++ Certification</p>
+                <p id="cert-date" class="  ">Sololearn</p>
+                <p id="cert-org" class=" text-sm italic font-light ">Mar 2020</p>
               </li>
   
             </ul>
@@ -358,27 +310,26 @@
 
         </section>
         
-
       </section>
 
       <!-- PROJECTS SECTION -->
-      <section id="projects" class=" max-w-3xl mx-auto p-2.5 h-fit pt-[4rem] ">
+      <section id="projects" class=" w-full h-fit pt-[2rem] pb-[4rem] ">
 
-        <section id="project-container" class=" max-w-3xl mx-auto ">
+        <section id="project-container" class=" max-w-3xl w-full mx-auto h-fit flex items-center flex-col ">
 
-          <h2 class=" text-[#274690] px-2 font-light text-4xl text-left ">Projects</h2>
+          <h2 class=" text-[#274690] my-10 font-light text-4xl text-center ">Projects</h2>
 
           <!-- PROJECT GROUP -->
-          <div id="pro-group" class=" flex flex-col pb-3 shadow-md shadow-slate-600 rounded-lg md:shadow-none max-w-[26rem] min-w-[19rem] mx-auto md:h-[13rem] md:items-stretch md:mx-0 md:flex-row md:gap-5 md:w-full md:max-w-full ">
+          <div id="pro-group" class=" flex flex-col pb-3 mb-7 shadow-md shadow-slate-600 rounded-lg md:shadow-none max-w-[26rem] min-w-[19rem] sm:min-w-0 mx-auto md:h-fit md:mx-0 md:flex-row md:gap-5 md:w-full md:max-w-full ">
 
-            <div id="pro-text" class=" md:w-[45%] text-gray-700 px-3 py-3 md:py-3 order-2 md:order-1  ">
+            <div id="pro-text" class=" md:w-[45%] text-gray-700 px-3 py-3 md:pt-0 order-2 md:order-1  ">
 
-              <h3 id="pro-title" class=" m-0 ">Project Title</h3>
+              <h3 id="pro-title" class=" m-0 font-semibold ">Student Information Management System</h3>
 
               <p id="pro-desc" class=" text-sm max-w-full overflow-hidden  ">
-                A brief description of the project should not be too long but descriptive enough 
+                This project uses a SQL database where students info are stored and can be accessed by both staff and student 
                 <span>
-                  <a href="#" class=" no-underline ">...read more</a>
+                  <a href="#" class=" no-underline text-blue-600 hover:text-blue-300 ">...read more</a>
                 </span>
               </p>
 
@@ -396,10 +347,10 @@
 
               </div>
 
-              <div class=" grid grid-cols-2 grid-flow-col place-items-center gap-7 mt-4 mx-auto w-[90%] max-w-[90%] min-h-[2rem] max-h-[2rem] md:mx-0 ">
-                <a href="#" class=" place-items-center justify-center flex w-full h-full hover:text-md hover:font-semibold hover:tracking-wide hover:bg-[#1088BC] no-underline bg-[#15B6FB] py-1 px-2 text-white text-[1rem] rounded-lg  ">view repo</a>
+              <div class=" grid grid-cols-2 grid-flow-col place-items-center gap-7 mt-4 mx-auto w-[90%] max-w-[90%] md:mx-0 ">
+                <a href="#" class=" place-items-center justify-center flex w-full h-full hover:text-md hover:font-semibold hover:tracking-wide hover:bg-[#1088BC] no-underline bg-[#15B6FB] py-2 px-2 text-white text-[1rem] rounded-lg transition-all ease-in-out duration-400 ">view repo</a>
 
-                <a href="#" class=" place-items-center justify-center flex w-full h-full hover:text-md hover:font-semibold hover:tracking-wide hover:bg-[#d68940] no-underline bg-[#fcb059] py-1 px-2 text-white text-[1rem] rounded-lg  ">view live site</a>
+                <a href="#" class=" place-items-center justify-center flex w-full h-full hover:text-md hover:font-semibold hover:tracking-wide hover:bg-[#d68940] no-underline bg-[#fcb059] py-2 px-2 text-white text-[1rem] rounded-lg transition-all ease-in-out duration-400 ">view live site</a>
               </div>
 
             </div>
@@ -407,7 +358,52 @@
             <a href="#" id="pro-img" class=" bg-[#274690] relative rounded-lg h-[13rem] order-1 overflow-hidden md:w-[55%] md:order-2 ">
 
               <img src="" alt="Project Image" class=" z-10 block min-h-full min-w-full max-w-full max-h-full bg-purple-300/30 ">
-              <div class=" z-40 absolute top-0 left-0 flex justify-center items-center bg-red-300/50 text-white text-2xl rounded-lg w-full h-full opacity-0  ">VISIT SITE</div>
+              <div class=" z-40 absolute top-0 left-0 flex justify-center hide transition-all ease-in-out duration-400 items-center bg-red-300/50 text-white text-2xl rounded-lg w-full h-full opacity-0  ">VISIT SITE</div>
+              
+            </a>
+
+          </div>
+
+          <!-- PROJECT GROUP -->
+          <div id="pro-group" class=" flex flex-col pb-3 mb-7 shadow-md shadow-slate-600 rounded-lg md:shadow-none max-w-[26rem] min-w-[19rem] mx-auto md:h-fit md:mx-0 md:flex-row md:gap-5 md:w-full md:max-w-full ">
+
+            <div id="pro-text" class=" md:w-[45%] text-gray-700 px-3 py-3 md:pt-0 order-2 md:order-1  ">
+
+              <h3 id="pro-title" class=" m-0 font-semibold ">Project Title</h3>
+
+              <p id="pro-desc" class=" text-sm max-w-full overflow-hidden  ">
+                A brief description of the project should not be too long but descriptive enough 
+                <span>
+                  <a href="#" class=" no-underline text-blue-600 hover:text-blue-300 ">...read more</a>
+                </span>
+              </p>
+
+              <div id="pro-tech" class=" my-2 ">
+                <h4 class=" m-0 font-semibold text-[0.9rem] ">Technologies Used</h4>
+
+                <div class=" pt-1 flex ">
+                  <div class=" w-fit px-2 py-1 text-[11px] bg-slate-400 rounded-full mr-2 ">HTML</div>
+                  <div class=" w-fit px-2 py-1 text-[11px] bg-slate-400 rounded-full mr-2 ">CSS</div>
+                  <div class=" w-fit px-2 py-1 text-[11px] bg-slate-400 rounded-full mr-2 ">Javascript</div>
+                  <div class=" w-fit px-2 py-1 text-[11px] bg-slate-400 rounded-full mr-2 ">PHP</div>
+                  <div class=" w-fit px-2 py-1 text-[11px] bg-slate-400 rounded-full mr-2 ">MySQL</div>
+
+                </div>
+
+              </div>
+
+              <div class=" grid grid-cols-2 grid-flow-col place-items-center gap-7 mt-4 mx-auto w-[90%] max-w-[90%] md:mx-0 ">
+                <a href="#" class=" place-items-center justify-center flex w-full h-full hover:text-md hover:font-semibold hover:tracking-wide hover:bg-[#1088BC] no-underline bg-[#15B6FB] py-2 px-2 text-white text-[1rem] rounded-lg transition-all ease-in-out duration-400 ">view repo</a>
+
+                <a href="#" class=" place-items-center justify-center flex w-full h-full hover:text-md hover:font-semibold hover:tracking-wide hover:bg-[#d68940] no-underline bg-[#fcb059] py-2 px-2 text-white text-[1rem] rounded-lg transition-all ease-in-out duration-400 ">view live site</a>
+              </div>
+
+            </div>
+
+            <a href="#" id="pro-img" class=" bg-[#274690] relative rounded-lg h-[13rem] order-1 overflow-hidden md:w-[55%] md:order-2 ">
+
+              <img src="" alt="Project Image" class=" z-10 block min-h-full min-w-full max-w-full max-h-full bg-purple-300/30 ">
+              <div class=" z-40 absolute top-0 left-0 flex justify-center hide transition-all ease-in-out duration-400 items-center bg-red-300/50 text-white text-2xl rounded-lg w-full h-full opacity-0  ">VISIT SITE</div>
               
             </a>
 
@@ -418,23 +414,23 @@
       </section>
 
       <!-- CONTACT SECTION -->
-      <section id="contact" class=" flex bg-[#274690] h-fit p-3 mt-[4rem]  ">
+      <section id="contact" class=" flex bg-[#274690] h-fit pt-[2rem] pb-8 ">
 
-        <section class=" max-w-3xl w-full  mx-auto py-8 ">
+        <section class=" max-w-3xl w-full mx-auto  ">
           
-          <h2 class=" text-white text-4xl font-light ">Contact Me</h2>
+          <h2 class=" text-white text-4xl font-light my-10 text-center ">Contact Me</h2>
 
-          <div class=" xsm:grid xsm:grid-cols-[1fr_2fr] xsm:grid-flow-row flex flex-col w-full items-center xsm:items-stretch justify-center overflow-x-hidden ">
+          <div class=" xsm:grid xsm:grid-cols-[1.5fr_2fr] xsm:grid-flow-row flex flex-col w-full items-center xsm:items-stretch justify-center overflow-x-hidden ">
 
             <!-- CONTACT LINKS -->
-            <div class=" w-[300px] pl-[3rem] xsm:pl-0 xsm:w-full mx-auto  ">
+            <div class=" w-[300px] pl-[3rem] xsm:w-full mx-auto  ">
 
-              <h3 class=" text-[#f5f3f5] text-2xl font-light ">You can reach me on</h3>
+              <h3 class=" text-[#f5f3f5] text-2xl font-semibold mb-4 ">You can reach me on</h3>
 
               <div class=" grid grid-auto-cols  ">
 
                 <!-- LINKEDIN CONTACT LINK -->
-                <a href="#" class=" no-underline border-solid box-border w-fit hover:ml-4 transition-all ease-in-out duration-400 flex items-center py-0 px-1 pr-2 text-white border-[#F5F3F5] h-fit border shadow-md shadow-slate-800 rounded-lg mb-4 ">
+                <a href="https://linkedin.com/in/danielugbeye" target="_blank" class=" no-underline border-solid box-border w-fit hover:ml-4 transition-all ease-in-out duration-400 flex items-center py-0 px-1 pr-2 text-white border-[#F5F3F5] h-fit border shadow-md shadow-slate-800 rounded-lg mb-4 ">
                     
                   <img src="./img/contact/linkedin/linkedin-White.svg" alt="logo" class=" m-0.5 w-8 h-8 p-0 pr-1.5 rounded-sm ">
                   <span class=" text-sm ">
@@ -444,7 +440,7 @@
                 </a>
 
                 <!-- TWITTER CONTACT LINK -->
-                <a href="#" class=" no-underline border-solid box-border w-fit hover:ml-4 transition-all ease-in-out duration-400 flex items-center py-0 px-1 pr-2 text-white border-[#F5F3F5] h-fit border shadow-md shadow-slate-800 rounded-lg mb-4 ">
+                <a href="https://twitter.com/in/ugbeye_daniel" target="_blank" class=" no-underline border-solid box-border w-fit hover:ml-4 transition-all ease-in-out duration-400 flex items-center py-0 px-1 pr-2 text-white border-[#F5F3F5] h-fit border shadow-md shadow-slate-800 rounded-lg mb-4 ">
                     
                   <img src="./img/contact/twitter/twitter-White.svg" alt="logo" class=" m-0.5 w-8 h-8 p-0 pr-1.5 rounded-sm ">
                   <span class=" text-sm ">
@@ -454,7 +450,7 @@
                 </a>
 
                 <!-- GITHUB CONTACT LINK -->
-                <a href="#" class=" no-underline border-solid box-border w-fit hover:ml-4 transition-all ease-in-out duration-400 flex items-center py-0 px-1 pr-2 text-white border-[#F5F3F5] h-fit border shadow-md shadow-slate-800 rounded-lg mb-4 ">
+                <a href="https://github.com/danugbeye" target="_blank" class=" no-underline border-solid box-border w-fit hover:ml-4 transition-all ease-in-out duration-400 flex items-center py-0 px-1 pr-2 text-white border-[#F5F3F5] h-fit border shadow-md shadow-slate-800 rounded-lg mb-4 ">
                     
                   <img src="./img/contact/github/github-White.svg" alt="logo" class=" m-0.5 w-8 h-8 p-0 pr-1.5 rounded-sm ">
                   <span class=" text-sm ">
@@ -464,7 +460,7 @@
                 </a>
 
                 <!-- PHONE CONTACT LINK -->
-                <a href="#" class=" no-underline border-solid box-border w-fit hover:ml-4 transition-all ease-in-out duration-400 flex items-center py-0 px-1 pr-2 text-white border-[#F5F3F5] h-fit border shadow-md shadow-slate-800 rounded-lg mb-4 ">
+                <a href="#" target="_blank" class=" no-underline border-solid box-border w-fit hover:ml-4 transition-all ease-in-out duration-400 flex items-center py-0 px-1 pr-2 text-white border-[#F5F3F5] h-fit border shadow-md shadow-slate-800 rounded-lg mb-4 ">
                     
                   <img src="./img/phone.svg" alt="logo" class=" m-0.5 w-8 h-8 p-0 pr-1.5 rounded-sm ">
                   <span class=" text-[0.8rem] ">
@@ -478,7 +474,7 @@
             </div>
 
             <!-- CONTACT FORM STATS HERE -->
-            <div id="contact-form" class=" w-full max-w-[20rem] xsm:w-[90%] mt-10 xsm:mt-0 flex flex-col pt-0 pb-7 px-5 mx-auto h-fit bg-[#f5f3f5] rounded-md    ">
+            <div id="contact-form" class=" w-full max-w-[25rem] xsm:max-w-[30rem] xsm:w-[90%] mt-10 xsm:mt-0 flex flex-col pt-0 pb-7 px-5 mx-auto h-fit bg-[#f5f3f5] rounded-md ">
             
               <div id="header" class=" flex h-fit w-full my-7 ">
                 <h3 class=" w-[70%] h-fit text-4xl text-[#1D346C] font-light m-0 ">
@@ -495,25 +491,25 @@
                 <!-- EMAIL INPUT FIELD -->
                 <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
                   <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Email</label>
-                  <input type="email" name="email" id="email" placeholder="your email address" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#274690] py-2 m-0  ">
+                  <input type="email" name="email" id="email" placeholder="your email address" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  ">
                 </div>
 
                 <!-- NAME/ORGANIZATION INPUT FIELD -->
                 <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
                   <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Name / Organization</label>
-                  <input type="text" name="name" id="name" placeholder="your name" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#274690] py-2 m-0  ">
+                  <input type="text" name="name" id="name" placeholder="your name" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  ">
                 </div>
 
                 <!-- MESSAGE TITLE INPUT FIELD -->
                 <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
                   <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Message Title</label>
-                  <input type="text" name="title" id="title" placeholder="message title" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#274690] py-2 m-0  ">
+                  <input type="text" name="title" id="title" placeholder="message title" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  ">
                 </div>
 
                 <!-- MESSAGE INPUT FIELD -->
                 <div class=" outline-none p-0  m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
                   <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Your Message</label>
-                  <textarea name="message" id="message" rows="5" placeholder="your message" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-2 placeholder-slate-400 text-[#274690] py-2 m-0  resize-none "></textarea>
+                  <textarea name="message" id="message" rows="5" placeholder="your message" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-2 placeholder-slate-400 text-[#101D3C] py-2 m-0  resize-none "></textarea>
                 </div>
 
                 <div class=" flex justify-end m-0 p-0 ">
@@ -530,12 +526,17 @@
 
       </section>
 
+      <!-- BACK TO TOP BUTTON -->
+      <a href="#home" id="back-to-top" class=" hidden rounded-full aspect-square w-[2.5rem] h-[2.5rem] text-sm bg-[#15B6FB] hover:bg-[#1088BC] hover:shadow-[0px_0px_7px_gray] fixed right-2 bottom-10 overflow-hidden  place-items-center ">
+        <img href="#home" id="back-to-top-img" src="./img/back_2.svg" alt="arrow-up" class=" rotate-90 ">
+      </a>
+
       <!-- FOOTER STARTS HERE -->
       <footer class=" w-full bg-[#1B264F] p-0  ">
 
         <p class=" text-center text-[#f5f3f5] p-4 m-0 ">
           <small class=" font-semibold w-full">
-            Daniel Ugbeye &copy; 2022
+            Made by <span class=" text-[#15B6FB] "> Daniel Ugbeye </span>  &copy; 2022
           </small>
         </p>
 
@@ -543,6 +544,7 @@
 
     </main>
 
+    <script src="./scripts/menu.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>

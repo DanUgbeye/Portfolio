@@ -1,4 +1,4 @@
-/* @tailwind base; */
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -11,6 +11,7 @@
 
 #pro-img:hover > div {
   opacity: 100%;
+  transform: none;
 }
 
 /* for hiding the menu */
