@@ -131,7 +131,7 @@ class MENU {
     const nav = document.querySelector('nav');
     const topBtn = document.querySelector('#back-to-top');
 
-    if(window.scrollY < 250) {
+    if(window.scrollY < 100) {
       nav.classList.remove('shadow-md');
     }else{
       nav.classList.add('shadow-md');
