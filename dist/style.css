@@ -717,6 +717,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 2rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -998,6 +1002,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
@@ -1016,6 +1024,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .self-end {
   align-self: flex-end;
+}
+
+.justify-self-start {
+  justify-self: start;
 }
 
 .justify-self-end {
@@ -1386,6 +1398,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -1440,6 +1462,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[\#15B6FB\] {
   --tw-text-opacity: 1;
   color: rgb(21 182 251 / var(--tw-text-opacity));
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 .no-underline {
@@ -1624,6 +1651,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: absolute;
   }
 
+  .md\:relative {
+    position: relative;
+  }
+
   .md\:top-\[unset\] {
     top: unset;
   }
@@ -1675,6 +1706,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:ml-0 {
     margin-left: 0px;
+  }
+
+  .md\:ml-auto {
+    margin-left: auto;
   }
 
   .md\:flex {
