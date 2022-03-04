@@ -547,6 +547,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 2.5rem;
 }
 
+.right-5 {
+  right: 1.25rem;
+}
+
+.right-\[10\%\] {
+  right: 10%;
+}
+
+.top-\[10\%\] {
+  top: 10%;
+}
+
+.top-\[10rem\] {
+  top: 10rem;
+}
+
+.top-\[8rem\] {
+  top: 8rem;
+}
+
+.top-\[6rem\] {
+  top: 6rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -557,6 +581,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .z-40 {
   z-index: 40;
+}
+
+.-z-0 {
+  z-index: 0;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .order-2 {
@@ -673,6 +705,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: auto;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mr-\[3rem\] {
+  margin-right: 3rem;
+}
+
+.mr-\[2rem\] {
+  margin-right: 2rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -709,8 +753,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
-.h-\[3rem\] {
-  height: 3rem;
+.h-\[2\.5rem\] {
+  height: 2.5rem;
 }
 
 .h-\[95vh\] {
@@ -743,10 +787,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 2rem;
 }
 
-.h-\[2\.5rem\] {
-  height: 2.5rem;
-}
-
 .max-h-\[70px\] {
   max-height: 70px;
 }
@@ -769,6 +809,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-h-full {
   max-height: 100%;
+}
+
+.max-h-\[15rem\] {
+  max-height: 15rem;
 }
 
 .min-h-\[90vh\] {
@@ -825,36 +869,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 2.5rem;
 }
 
+.min-w-\[9rem\] {
+  min-width: 9rem;
+}
+
 .min-w-\[19rem\] {
   min-width: 19rem;
 }
 
 .min-w-full {
   min-width: 100%;
-}
-
-.min-w-\[5rem\] {
-  min-width: 5rem;
-}
-
-.min-w-\[10rem\] {
-  min-width: 10rem;
-}
-
-.min-w-\[8rem\] {
-  min-width: 8rem;
-}
-
-.min-w-\[7rem\] {
-  min-width: 7rem;
-}
-
-.min-w-\[7\.5rem\] {
-  min-width: 7.5rem;
-}
-
-.min-w-\[9rem\] {
-  min-width: 9rem;
 }
 
 .max-w-\[100vw\] {
@@ -901,20 +925,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 90%;
 }
 
-.max-w-\[10rem\] {
-  max-width: 10rem;
-}
-
-.max-w-\[8rem\] {
-  max-width: 8rem;
-}
-
-.max-w-\[7rem\] {
-  max-width: 7rem;
-}
-
-.max-w-\[7\.5rem\] {
-  max-width: 7.5rem;
+.max-w-\[15rem\] {
+  max-width: 15rem;
 }
 
 .rotate-90 {
@@ -1216,6 +1228,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pt-\[8rem\] {
   padding-top: 8rem;
 }
@@ -1232,8 +1249,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 0px;
 }
 
-.pt-\[2rem\] {
-  padding-top: 2rem;
+.pt-\[0\] {
+  padding-top: 0;
 }
 
 .pb-\[4rem\] {
@@ -1246,6 +1263,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pl-4 {
   padding-left: 1rem;
+}
+
+.pt-\[2rem\] {
+  padding-top: 2rem;
 }
 
 .pb-3 {
@@ -1282,6 +1303,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-7 {
   padding-bottom: 1.75rem;
+}
+
+.pb-\[2rem\] {
+  padding-bottom: 2rem;
 }
 
 .text-center {
@@ -1417,6 +1442,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   opacity: 0;
 }
 
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -1524,12 +1561,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
-.hover\:tracking-wide:hover {
-  letter-spacing: 0.025em;
-}
-
 .hover\:tracking-wider:hover {
   letter-spacing: 0.05em;
+}
+
+.hover\:tracking-wide:hover {
+  letter-spacing: 0.025em;
 }
 
 .hover\:text-blue-300:hover {
@@ -1554,12 +1591,32 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
   .md\:top-\[unset\] {
     top: unset;
   }
 
   .md\:left-\[unset\] {
     left: unset;
+  }
+
+  .md\:top-\[4rem\] {
+    top: 4rem;
+  }
+
+  .md\:top-\[3rem\] {
+    top: 3rem;
+  }
+
+  .md\:top-\[2rem\] {
+    top: 2rem;
+  }
+
+  .md\:right-\[2rem\] {
+    right: 2rem;
   }
 
   .md\:order-1 {
@@ -1583,6 +1640,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 0px;
   }
 
+  .md\:ml-0 {
+    margin-left: 0px;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1603,6 +1664,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:max-h-\[2rem\] {
     max-height: 2rem;
+  }
+
+  .md\:max-h-\[25rem\] {
+    max-height: 25rem;
+  }
+
+  .md\:max-h-\[20rem\] {
+    max-height: 20rem;
   }
 
   .md\:w-fit {
@@ -1639,6 +1708,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:max-w-full {
     max-width: 100%;
+  }
+
+  .md\:max-w-sm {
+    max-width: 24rem;
+  }
+
+  .md\:max-w-\[25rem\] {
+    max-width: 25rem;
+  }
+
+  .md\:max-w-\[20rem\] {
+    max-width: 20rem;
   }
 
   .md\:transform-none {
@@ -1725,6 +1806,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 1.75rem;
   }
 
+  .md\:font-extralight {
+    font-weight: 200;
+  }
+
   .md\:text-\[\#274690\] {
     --tw-text-opacity: 1;
     color: rgb(39 70 144 / var(--tw-text-opacity));
@@ -1745,7 +1830,54 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:top-\[50\%\] {
+    top: 50%;
+  }
+
+  .lg\:bottom-\[50\%\] {
+    bottom: 50%;
+  }
+
+  .lg\:top-\[40\%\] {
+    top: 40%;
+  }
+
+  .lg\:max-h-\[32rem\] {
+    max-height: 32rem;
+  }
+
+  .lg\:max-h-\[25rem\] {
+    max-height: 25rem;
+  }
+
+  .lg\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .lg\:max-w-lg {
+    max-width: 32rem;
+  }
+
+  .lg\:max-w-\[32rem\] {
+    max-width: 32rem;
+  }
+
+  .lg\:max-w-\[25rem\] {
+    max-width: 25rem;
+  }
+
+  .lg\:translate-y-\[-50\%\] {
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+
 @media (min-width: 640px) {
+  .xsm\:absolute {
+    position: absolute;
+  }
+
   .xsm\:mt-0 {
     margin-top: 0px;
   }
