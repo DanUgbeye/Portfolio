@@ -2,8 +2,6 @@ class MENU {
 
   constructor() {
 
-    console.log(this.navLinks);
-
     document.addEventListener('scroll', () => {
       this.navbarlinksActive();
       this.navDisplay();
@@ -116,12 +114,10 @@ class MENU {
   makeActiveLink = (link) => {
   
     this.removeActiveLink();
-    // console.log('made active link');
     const currentLink = link
     currentLink.classList.remove('text-white', 'md:text-[#274690]', 'hover:bg-white/30', 'md:hover:bg-slate-600/40', 'hover:ml-4');
     currentLink.classList.add('active-link');
     this.closeMenu();
-    // console.log('result' + currentLink.classList.contains('active-link'))
   
   }
 
@@ -152,9 +148,7 @@ class MENU {
       
     let activePos = window.scrollY + 250;
     this.navLinks.forEach( (link) => {
-      // console.log(link)
       let pageSection = document.querySelector(link.hash);
-      // console.log('started', pageSection.offsetHeight, pageSection.offsetTop, link.hash, activePos);
       if (activePos >= pageSection.offsetTop && activePos <= (pageSection.offsetTop + pageSection.offsetHeight)) {
         this.makeActiveLink(link);
       }else {
