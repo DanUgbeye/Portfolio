@@ -1,3 +1,4 @@
+//this handles the form when it submitted
 async function handleSubmit(event) {
   event.preventDefault();
   let message;
@@ -29,4 +30,3 @@ async function handleSubmit(event) {
     showAlert(message, 'error');
   });
 }
-

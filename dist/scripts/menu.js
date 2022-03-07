@@ -24,6 +24,16 @@ class MENU {
         })
       }
 
+       //this does the scrolling for the contact button on home section
+       if(e.target.id === 'home-contact-link') {
+        e.preventDefault();
+        let section = document.querySelector(e.target.hash);        
+        window.scrollTo({
+          top: (section.offsetTop - 50),
+          behavior: 'smooth'
+        })
+      }
+
       //this closes the expanded menu when an external element is clicked on
       let isNavElement, path;
       if(e.path){
