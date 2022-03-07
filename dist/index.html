@@ -10,6 +10,10 @@
 
   <body class="bg-[#F5F3F5] p-0 m-0 max-w-[100vw] relative">
 
+    <!-- TEST DIVS FOR EXTRA STYLES -->
+    <div class=" shadow-md hidden bg-red-600"></div>
+    <div class=" hidden bg-green-600"></div>
+
   <!-- NAVBAR STARTS HERE -->
     <nav class="w-full bg-[#F5F3F5] max-h-[70px] z-50 h-[50px] flex justify-between items-center p-0 sticky top-0 left-0 right-0  ">
 
@@ -19,7 +23,6 @@
 
       <ul id="menu" class=" overflow-hidden list-none pt-[8rem] absolute hide flex flex-col justify-self-end gap-5 px-[2rem] left-0 top-0 my-0 h-[100vh] max-h-[100vh] bg-[#274690] w-[70%] max-w-[25rem] border-r border-0 border-solid border-[#f5f3f5] md:transform-none md:px-0 md:h-fit md:top-[unset] md:pt-0 md:left-[unset] md:bg-transparent md:w-fit md:justify-evenly md:max-w-fit md:gap-2 md:flex md:flex-row md:border-none md:items-center md:relative md:mr-3 transition-all ease-in-out duration-400 ">
 
-        <div class=" shadow-md hidden"></div>
 
         <img id="close-menu" src="./img/close.svg" alt="menu icon" class=" cursor-pointer max-w-[32px] absolute top-3 right-7 max-h-[32px] md:hidden mr-4  " >
 
@@ -70,7 +73,7 @@
      class=" p-0 m-0 flex flex-col">
 
      <!-- HOME SECTION -->
-      <section id="home" class=" h-[95vh] min-h-[90vh] flex flex-col lg:flex-row py-[1rem] px-10 justify-center relative border-b-4 border-0 border-solid border-[#274690] ">
+      <section id="home" class=" h-fit md:h-[95vh] min-h-[90vh] flex flex-col lg:flex-row py-[1rem] px-10 justify-center relative border-b-4 border-0 border-solid border-[#274690] ">
 
         <img src="./img/developer.svg" alt="" class=" self-end opacity-80 -z-10 max-w-[15rem] max-h-[15rem] xsm:max-w-[20rem] md:max-w-[20rem] md:max-h-[20rem] lg:max-w-[25rem] lg:max-h-[25rem] lg:order-2 lg:self-center ">
 
@@ -88,13 +91,13 @@
             </span>
           </div>
           
-          <div id="contact-links" class=" p-0  grid grid-cols-2 gap-3 grid-flow-row w-full max-w-sm ">
+          <div id="contact-links" class=" p-0 grid grid-cols-2 gap-5 grid-flow-row w-full max-w-sm ">
   
             <a href="#" class=" shadow-[0px_3px_4px_#33333390] bg-orange-500 hover:bg-orange-700 hover:tracking-wider min-w-[9rem] max-w-[9rem] flex justify-center p-3 rounded-xl no-underline text-[#f5f3f5] ">
               Contact Me
             </a>
   
-            <a href="#" class=" shadow-[0px_3px_4px_#33333390] bg-[#15B6FB] hover:bg-[#1088BC] hover:tracking-wider min-w-[9rem] max-w-[9rem] flex justify-center p-3 ml-5 rounded-xl no-underline text-[#f5f3f5] ">
+            <a href="#" class=" shadow-[0px_3px_4px_#33333390] bg-[#15B6FB] hover:bg-[#1088BC] hover:tracking-wider min-w-[9rem] max-w-[9rem] flex justify-center p-3 rounded-xl no-underline text-[#f5f3f5] ">
               Download CV
             </a>
   
@@ -470,7 +473,7 @@
             </div>
 
             <!-- CONTACT FORM STARTS HERE -->
-            <div id="contact-form" class=" w-full max-w-[25rem] xsm:max-w-[30rem] xsm:w-[90%] mt-10 xsm:mt-0 flex flex-col pt-0 pb-7 px-5 mx-auto h-fit bg-[#f5f3f5] rounded-md ">
+            <div id="contact-form-container" class=" w-full max-w-[25rem] xsm:max-w-[30rem] xsm:w-[90%] mt-10 xsm:mt-0 flex flex-col pt-0 pb-7 px-5 mx-auto h-fit bg-[#f5f3f5] rounded-md ">
             
               <div id="header" class=" flex h-fit w-full my-7 ">
                 <h3 class=" w-[70%] h-fit text-4xl text-[#1D346C] font-light m-0 ">
@@ -482,29 +485,29 @@
                 <img src="./img/Send.svg" alt="the send svg icon" class=" w-[30%] h-full  ">
               </div>
 
-              <form action="" class=" grid grid-flow-row items-center  " >
+              <form id="contact-form" action="https://formspree.io/f/xvolrvng" method="post" class=" grid grid-flow-row items-center  " >
 
                 <!-- EMAIL INPUT FIELD -->
                 <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
-                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Email</label>
+                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] py-0 px-1 ">Email</label>
                   <input type="email" name="email" id="email" placeholder="your email address" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  ">
                 </div>
 
                 <!-- NAME/ORGANIZATION INPUT FIELD -->
                 <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
-                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Name / Organization</label>
+                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] py-0 px-1 ">Name / Organization</label>
                   <input type="text" name="name" id="name" placeholder="your name" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  ">
                 </div>
 
                 <!-- MESSAGE TITLE INPUT FIELD -->
                 <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
-                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Message Title</label>
+                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] py-0 px-1 ">Message Title</label>
                   <input type="text" name="title" id="title" placeholder="message title" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  ">
                 </div>
 
                 <!-- MESSAGE INPUT FIELD -->
                 <div class=" outline-none p-0  m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
-                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] font-light py-0 px-1 ">Your Message</label>
+                  <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] py-0 px-1 ">Your Message</label>
                   <textarea name="message" id="message" rows="5" placeholder="your message" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-2 placeholder-slate-400 text-[#101D3C] py-2 m-0  resize-none "></textarea>
                 </div>
 
@@ -521,6 +524,11 @@
         </section>
 
       </section>
+
+      <!-- ALERT DIV -->
+      <div id="alert" class=" fixed top-[4rem] right-2 text-white w-fit h-fit p-3 translate-x-[100%] font-bold transition-all ease-in-out duration-400  ">
+        <!-- Messages to display comes in here -->
+      </div>
 
       <!-- BACK TO TOP BUTTON -->
       <a href="#home" id="back-to-top" class=" hidden rounded-full aspect-square w-[2.5rem] h-[2.5rem] text-sm bg-[#15B6FB] hover:bg-[#1088BC] hover:shadow-[0px_0px_7px_gray] fixed right-2 bottom-10 overflow-hidden  place-items-center ">
@@ -540,6 +548,8 @@
 
     </main>
 
+    <script src="./scripts/ui.js"></script>
+    <script src="./scripts/form.js"></script>
     <script src="./scripts/menu.js"></script>
     <script src="./index.js"></script>
   </body>
