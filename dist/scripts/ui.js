@@ -20,3 +20,16 @@ const showAlert = async (message, type) => {
     alert.classList.add('translate-x-[100%]');
   }, 5000)
 }
+
+let phoneLink = document.querySelector('#phone-link');
+phoneLink.addEventListener('click', (e) => {
+  e.preventDefault();
+  /* Select the text field */
+  // phoneLink.childNodes[3].select();
+  // phoneLink.childNodes[3].setSelectionRange(0, 14); /* For mobile devices */
+
+   /* Copy the text inside the text field */
+  navigator.clipboard.writeText(phoneLink.childNodes[3].outerText);
+  console.log(phoneLink.childNodes[3].outerText);
+  showAlert('copied successfully', 'success');
+} )
