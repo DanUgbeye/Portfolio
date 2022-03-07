@@ -505,29 +505,29 @@
                 <!-- EMAIL INPUT FIELD -->
                 <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
                   <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] py-0 px-1 ">Email</label>
-                  <input type="email" name="email" id="email" placeholder="your email address" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  ">
+                  <input type="email" name="email" id="email" placeholder="your email address" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  " required>
                 </div>
 
                 <!-- NAME/ORGANIZATION INPUT FIELD -->
                 <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
                   <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] py-0 px-1 ">Name / Organization</label>
-                  <input type="text" name="name" id="name" placeholder="your name" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  ">
+                  <input type="text" name="name" id="name" placeholder="your name" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  " required>
                 </div>
 
                 <!-- MESSAGE TITLE INPUT FIELD -->
                 <div class=" outline-none p-0 px-1 m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
                   <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] py-0 px-1 ">Message Title</label>
-                  <input type="text" name="title" id="title" placeholder="message title" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  ">
+                  <input type="text" name="title" id="title" placeholder="message title" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-1 placeholder-slate-400 text-[#101D3C] py-2 m-0  " >
                 </div>
 
                 <!-- MESSAGE INPUT FIELD -->
                 <div class=" outline-none p-0  m-0  flex border-2 border-solid border-[#274690] rounded-md mb-6 ">
                   <label class=" text-[0.8rem] text-[#274690] absolute -mt-2.5 ml-2 bg-[#f5f3f5] py-0 px-1 ">Your Message</label>
-                  <textarea name="message" id="message" rows="5" placeholder="your message" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-2 placeholder-slate-400 text-[#101D3C] py-2 m-0  resize-none "></textarea>
+                  <textarea name="message" id="message" rows="5" placeholder="your message" class=" rounded-md text-[0.8rem] outline-none border-0 w-full px-2 placeholder-slate-400 text-[#101D3C] py-2 m-0  resize-none " required ></textarea>
                 </div>
 
                 <div class=" flex justify-end m-0 p-0 ">
-                  <input type="submit" value="send" class=" w-full outline-0 bg-[#15B6FB] hover:bg-[#1088BC] border-0 rounded-md py-1 text-lg text-[#f5f3f5] font-semibold  ml-auto " >
+                  <button id="submit" type="submit" class=" w-full outline-0 bg-[#15B6FB] hover:bg-[#1088BC] border-0 rounded-md py-1 text-lg text-[#f5f3f5] font-semibold  ml-auto  " >Send</button>
                 </div>
                 
               </form>
