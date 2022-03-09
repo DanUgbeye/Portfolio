@@ -27,6 +27,5 @@ phoneLink.addEventListener('click', (e) => {
 
    /* Copy the text inside the text field */
   navigator.clipboard.writeText(phoneLink.childNodes[3].outerText);
-  console.log(phoneLink.childNodes[3].outerText);
   showAlert('copied successfully', 'success');
 } )
