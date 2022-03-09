@@ -24,9 +24,6 @@ const showAlert = async (message, type) => {
 let phoneLink = document.querySelector('#phone-link');
 phoneLink.addEventListener('click', (e) => {
   e.preventDefault();
-  /* Select the text field */
-  // phoneLink.childNodes[3].select();
-  // phoneLink.childNodes[3].setSelectionRange(0, 14); /* For mobile devices */
 
    /* Copy the text inside the text field */
   navigator.clipboard.writeText(phoneLink.childNodes[3].outerText);
