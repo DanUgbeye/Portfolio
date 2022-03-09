@@ -4,7 +4,10 @@ form.addEventListener("submit", handleSubmit)
 
 const menu = new MENU();
 
-window.onload = menu.navbarlinksActive();
+window.onload = () => {
+  menu.navbarlinksActive();
+  menu.navDisplay();
+}
 
 
 
